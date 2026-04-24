@@ -46,3 +46,18 @@ fig2 = px.bar(top15, x="country", y="pct_at_risk",
               color="pct_at_risk", color_continuous_scale="Reds",
               labels={"pct_at_risk": "% At Risk", "country": "Country"})
 st.plotly_chart(fig2, use_container_width=True)
+
+# ── Chart 3: World map ────────────────────────────────────────
+st.subheader("🗺️ World Map — % Breeds at Risk")
+map_data = filtered.groupby("country")["pct_at_risk"].mean().reset_index()
+fig3 = px.choropleth(map_data, locations="country", locationmode="country names",
+                     color="pct_at_risk", color_continuous_scale="YlOrRd",
+                     labels={"pct_at_risk": "Avg % At Risk"})
+st.plotly_chart(fig3, use_container_width=True)
+
+# ── Chart 4: Distribution ─────────────────────────────────────
+st.subheader("📉 Distribution of % At Risk Values")
+fig4 = px.histogram(filtered, x="pct_at_risk", nbins=30,
+                    labels={"pct_at_risk": "% At Risk"},
+                    color_discrete_sequence=["teal"])
+st.plotly_chart(fig4, use_container_width=True)
