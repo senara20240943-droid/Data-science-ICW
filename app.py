@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-st.set_page_config(page_title="Proportion of local breeds classified as being at risk of extinction", layout="wide")
+
+st.set_page_config(page_title="Breeds at Risk Dashboard", page_icon="🐄", layout="wide")
 
 @st.cache_data
-def load_data("/Users/senarajayawardena/Desktop/IIT 2y/SEM 02/Data Science /ICW/Data Science/clean.csv"):
+def load_data():
     return pd.read_csv("/Users/senarajayawardena/Desktop/IIT 2y/SEM 02/Data Science /ICW/Data Science/clean.csv")
 
 df = load_data()
@@ -18,8 +19,15 @@ selected_countries = st.sidebar.multiselect("Countries", countries, default=coun
 year_min, year_max = int(df["year"].min()), int(df["year"].max())
 year_range = st.sidebar.slider("Year Range", year_min, year_max, (year_min, year_max))
 
+# ── Filter data ───────────────────────────────────────────────
+filtered = df[
+    (df["country"].isin(selected_countries)) &
+    (df["year"] >= year_range[0]) &
+    (df["year"] <= year_range[1])
+]
+
 # ── Title ─────────────────────────────────────────────────────
-st.title("Local Breeds at Risk of Extinction")
+st.title("🐄 Local Breeds at Risk of Extinction")
 st.markdown("**SDG Indicator 2.5.2** — Proportion of local breeds classified as being at risk of extinction.")
 
 # ── KPIs ──────────────────────────────────────────────────────
@@ -30,7 +38,7 @@ col3.metric("Avg % At Risk", f"{filtered['pct_at_risk'].mean():.1f}%")
 
 st.divider()
 
-# ── Chart 1: Global trend over time ──────────────────────────
+# ── Chart 1: Global trend over time ───────────────────────────
 st.subheader("📈 Global Trend Over Time")
 trend = filtered.groupby("year")["pct_at_risk"].mean().reset_index()
 fig1 = px.line(trend, x="year", y="pct_at_risk",
