@@ -65,13 +65,15 @@ def dark_layout(fig):
     )
     return fig
 
-st.subheader("🔵 Country % At Risk (Latest Year)")
-latest = filtered[filtered["year"] == filtered["year"].max()]
-fig = px.scatter(latest, x="country", y="pct_at_risk",
-                 size="pct_at_risk", color="pct_at_risk",
-                 color_continuous_scale="Aggrnyl",
-                 labels={"pct_at_risk": "% At Risk", "country": "Country"})
-st.plotly_chart(dark_layout(fig), use_container_width=True)
+# ── Chart 1: Area trend ───────────────────────────────────────
+st.subheader("📈 Global Trend Over Time")
+trend = filtered.groupby("year")["pct_at_risk"].mean().reset_index()
+fig1 = px.area(trend, x="year", y="pct_at_risk",
+               labels={"pct_at_risk": "Avg % At Risk", "year": "Year"},
+               color_discrete_sequence=[GREEN])
+fig1.update_traces(line=dict(width=2.5), fillcolor="rgba(74,222,128,0.15)")
+st.plotly_chart(dark_layout(fig1), use_container_width=True)
+
 
 st.subheader("📦 Spread of % At Risk by Decade")
 filtered["decade"] = (filtered["year"] // 10 * 10).astype(str) + "s"
@@ -83,20 +85,20 @@ st.plotly_chart(dark_layout(fig), use_container_width=True)
 
 st.subheader("🟩 Treemap of % At Risk by Country")
 latest = filtered[filtered["year"] == filtered["year"].max()]
-fig = px.treemap(latest, path=["country"], values="pct_at_risk",
-                 color="pct_at_risk", color_continuous_scale="Aggrnyl",
-                 labels={"pct_at_risk": "% At Risk"})
-fig.update_layout(paper_bgcolor=BG, font=dict(color="#ffffff"),
-                  margin=dict(t=40, b=40, l=40, r=40))
-st.plotly_chart(fig, use_container_width=True)
+latest = latest[latest["pct_at_risk"] > 0]
 
-st.subheader("📉 Top 5 Countries Trend Over Time")
-top5 = filtered.groupby("country")["pct_at_risk"].mean().nlargest(5).index
-top5_df = filtered[filtered["country"].isin(top5)]
-fig = px.line(top5_df, x="year", y="pct_at_risk", color="country",
-              markers=True,
-              labels={"pct_at_risk": "% At Risk", "year": "Year"})
-st.plotly_chart(dark_layout(fig), use_container_width=True)
+if latest.empty:
+    st.info("No at-risk data available for the current filter selection.")
+else:
+    fig = px.treemap(latest, path=["country"], values="pct_at_risk",
+                     color="pct_at_risk",
+                     color_continuous_scale="Aggrnyl",
+                     labels={"pct_at_risk": "% At Risk"})
+    fig.update_layout(paper_bgcolor=BG, font=dict(color="#ffffff"),
+                      margin=dict(t=40, b=40, l=40, r=40))
+    st.plotly_chart(fig, use_container_width=True)
+
+
 
 
 # ── Chart 4: Map ──────────────────────────────────────────────
