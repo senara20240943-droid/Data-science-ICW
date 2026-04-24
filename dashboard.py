@@ -74,6 +74,29 @@ fig1 = px.area(trend, x="year", y="pct_at_risk",
 fig1.update_traces(line=dict(width=2.5), fillcolor="rgba(74,222,128,0.15)")
 st.plotly_chart(dark_layout(fig1), use_container_width=True)
 
+# ── Chart 2 & 3 side by side ──────────────────────────────────
+col_a, col_b = st.columns(2)
+
+with col_a:
+    st.subheader("📊 Top 15 Countries")
+    latest_year = filtered["year"].max()
+    top15 = filtered[filtered["year"] == latest_year].sort_values("pct_at_risk", ascending=False).head(15)
+    fig2 = px.bar(top15, x="pct_at_risk", y="country", orientation="h",
+                  color="pct_at_risk", color_continuous_scale="Aggrnyl",
+                  labels={"pct_at_risk": "% At Risk", "country": "Country"})
+    fig2.update_layout(coloraxis_showscale=False)
+    fig2.update_yaxes(autorange="reversed", gridcolor=GRID)
+    st.plotly_chart(dark_layout(fig2), use_container_width=True)
+
+with col_b:
+    st.subheader("📉 Distribution of % At Risk")
+    fig3 = px.histogram(filtered, x="pct_at_risk", nbins=30,
+                        labels={"pct_at_risk": "% At Risk"},
+                        color_discrete_sequence=[GREEN])
+    fig3.update_traces(marker_line_color=BG, marker_line_width=1)
+    st.plotly_chart(dark_layout(fig3), use_container_width=True)
+
+
 
 st.subheader("📦 Spread of % At Risk by Decade")
 filtered["decade"] = (filtered["year"] // 10 * 10).astype(str) + "s"
