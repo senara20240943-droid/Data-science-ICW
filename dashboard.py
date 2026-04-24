@@ -4,7 +4,6 @@ import plotly.express as px
 
 st.set_page_config(page_title="Breeds at Risk Dashboard", page_icon="🐄", layout="wide")
 
-# ── Custom CSS ────────────────────────────────────────────────
 st.markdown("""
     <style>
     .main { background-color: #0e0e0e; }
@@ -15,16 +14,14 @@ st.markdown("""
         border: 1px solid #2e2e2e;
         border-radius: 12px;
         padding: 15px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
     }
     [data-testid="stMetricLabel"] { color: #aaaaaa; font-size: 13px; }
     [data-testid="stMetricValue"] { color: #4ade80; font-size: 28px; font-weight: bold; }
     .stSidebar { background-color: #111111; }
-    .stSidebar h1, .stSidebar p, .stSidebar label { color: #ffffff; }
-    hr { border-color: #2e2e2e; }
     </style>
 """, unsafe_allow_html=True)
 
+# ── Load data ─────────────────────────────────────────────────
 @st.cache_data
 def load_data():
     return pd.read_csv("clean.csv")
@@ -33,23 +30,12 @@ df = load_data()
 
 # ── Sidebar ───────────────────────────────────────────────────
 st.sidebar.title("🔍 Filters")
-st.sidebar.markdown("---")
-
-countries = sorted(df["country"].unique())
-selected_countries = st.sidebar.multiselect("🌍 Countries", countries, default=countries)
-
-year_min, year_max = int(df["year"].min()), int(df["year"].max())
-year_range = st.sidebar.slider("📅 Year Range", year_min, year_max, (year_min, year_max))
-
-st.sidebar.markdown("---")
+selected_countries = st.sidebar.multiselect("🌍 Countries", sorted(df["country"].unique()), default=sorted(df["country"].unique()))
+year_range = st.sidebar.slider("📅 Year Range", int(df["year"].min()), int(df["year"].max()), (int(df["year"].min()), int(df["year"].max())))
 st.sidebar.info("Source: UN SDG 2.5.2 via World Bank Data360")
 
 # ── Filter ────────────────────────────────────────────────────
-filtered = df[
-    (df["country"].isin(selected_countries)) &
-    (df["year"] >= year_range[0]) &
-    (df["year"] <= year_range[1])
-]
+filtered = df[df["country"].isin(selected_countries) & df["year"].between(year_range[0], year_range[1])]
 
 # ── Header ────────────────────────────────────────────────────
 st.markdown("# 🐄 Local Breeds at Risk of Extinction")
@@ -62,55 +48,53 @@ col1.metric("🌍 Countries", filtered["country"].nunique())
 col2.metric("📅 Years", f"{year_range[0]} – {year_range[1]}")
 col3.metric("📊 Avg % At Risk", f"{filtered['pct_at_risk'].mean():.1f}%")
 col4.metric("📈 Max % At Risk", f"{filtered['pct_at_risk'].max():.1f}%")
-
 st.markdown("---")
 
-# ── Chart settings ────────────────────────────────────────────
-bg = "#0e0e0e"
-grid = "#2e2e2e"
-font_color = "#ffffff"
+# ── Shared chart style ────────────────────────────────────────
+BG = "#0e0e0e"
+GRID = "#2e2e2e"
+GREEN = "#4ade80"
 
-layout = dict(
-    plot_bgcolor=bg,
-    paper_bgcolor=bg,
-    font=dict(color=font_color),
-    xaxis=dict(gridcolor=grid, zerolinecolor=grid),
-    yaxis=dict(gridcolor=grid, zerolinecolor=grid),
-    margin=dict(t=40, b=40, l=40, r=40)
-)
+def dark_layout(fig):
+    fig.update_layout(
+        plot_bgcolor=BG, paper_bgcolor=BG,
+        font=dict(color="#ffffff"),
+        xaxis=dict(gridcolor=GRID, zerolinecolor=GRID),
+        yaxis=dict(gridcolor=GRID, zerolinecolor=GRID),
+        margin=dict(t=40, b=40, l=40, r=40)
+    )
+    return fig
 
-# ── Chart 1: Trend ────────────────────────────────────────────
+# ── Chart 1: Area trend ───────────────────────────────────────
 st.subheader("📈 Global Trend Over Time")
 trend = filtered.groupby("year")["pct_at_risk"].mean().reset_index()
 fig1 = px.area(trend, x="year", y="pct_at_risk",
                labels={"pct_at_risk": "Avg % At Risk", "year": "Year"},
-               color_discrete_sequence=["#4ade80"])
+               color_discrete_sequence=[GREEN])
 fig1.update_traces(line=dict(width=2.5), fillcolor="rgba(74,222,128,0.15)")
-fig1.update_layout(**layout)
-st.plotly_chart(fig1, use_container_width=True)
+st.plotly_chart(dark_layout(fig1), use_container_width=True)
 
 # ── Chart 2 & 3 side by side ──────────────────────────────────
 col_a, col_b = st.columns(2)
 
 with col_a:
     st.subheader("📊 Top 15 Countries")
-    latest = filtered[filtered["year"] == filtered["year"].max()]
-    top15 = latest.sort_values("pct_at_risk", ascending=False).head(15)
+    latest_year = filtered["year"].max()
+    top15 = filtered[filtered["year"] == latest_year].sort_values("pct_at_risk", ascending=False).head(15)
     fig2 = px.bar(top15, x="pct_at_risk", y="country", orientation="h",
                   color="pct_at_risk", color_continuous_scale="Aggrnyl",
                   labels={"pct_at_risk": "% At Risk", "country": "Country"})
-    fig2.update_layout(**layout, coloraxis_showscale=False)
-    fig2.update_yaxes(autorange="reversed", gridcolor=grid)
-    st.plotly_chart(fig2, use_container_width=True)
+    fig2.update_layout(coloraxis_showscale=False)
+    fig2.update_yaxes(autorange="reversed", gridcolor=GRID)
+    st.plotly_chart(dark_layout(fig2), use_container_width=True)
 
 with col_b:
     st.subheader("📉 Distribution of % At Risk")
     fig3 = px.histogram(filtered, x="pct_at_risk", nbins=30,
                         labels={"pct_at_risk": "% At Risk"},
-                        color_discrete_sequence=["#4ade80"])
-    fig3.update_traces(marker_line_color="#0e0e0e", marker_line_width=1)
-    fig3.update_layout(**layout)
-    st.plotly_chart(fig3, use_container_width=True)
+                        color_discrete_sequence=[GREEN])
+    fig3.update_traces(marker_line_color=BG, marker_line_width=1)
+    st.plotly_chart(dark_layout(fig3), use_container_width=True)
 
 # ── Chart 4: Map ──────────────────────────────────────────────
 st.subheader("🗺️ World Map — % Breeds at Risk")
@@ -119,15 +103,10 @@ fig4 = px.choropleth(map_data, locations="country", locationmode="country names"
                      color="pct_at_risk", color_continuous_scale="Aggrnyl",
                      labels={"pct_at_risk": "Avg % At Risk"})
 fig4.update_layout(
-    geo=dict(showframe=False, showcoastlines=True,
-             projection_type="natural earth",
-             bgcolor=bg,
-             landcolor="#1a1a1a",
-             oceancolor="#111111",
-             showocean=True,
-             coastlinecolor="#2e2e2e"),
-    paper_bgcolor=bg,
-    font=dict(color=font_color),
+    paper_bgcolor=BG, font=dict(color="#ffffff"),
+    geo=dict(bgcolor=BG, landcolor="#1a1a1a", oceancolor="#111111",
+             showocean=True, showcoastlines=True, coastlinecolor=GRID,
+             showframe=False, projection_type="natural earth"),
     margin=dict(t=40, b=40)
 )
 st.plotly_chart(fig4, use_container_width=True)
