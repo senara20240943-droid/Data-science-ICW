@@ -1,0 +1,2367 @@
+country,year,pct_at_risk,status
+Denmark,2000,83.0,Normal value
+Denmark,2001,83.0,Normal value
+Denmark,2002,83.0,Normal value
+Denmark,2003,83.0,Normal value
+Denmark,2004,94.0,Normal value
+Denmark,2005,95.0,Normal value
+Denmark,2006,95.0,Normal value
+Denmark,2007,95.0,Normal value
+Denmark,2008,100.0,Normal value
+Denmark,2009,100.0,Normal value
+Denmark,2010,100.0,Normal value
+Denmark,2011,100.0,Normal value
+Denmark,2012,62.0,Normal value
+Denmark,2013,94.0,Normal value
+Denmark,2014,68.0,Normal value
+Denmark,2015,87.0,Normal value
+Denmark,2016,95.0,Normal value
+Denmark,2017,85.0,Normal value
+Denmark,2018,98.0,Normal value
+Denmark,2019,91.0,Normal value
+Denmark,2020,91.0,Normal value
+Denmark,2021,93.0,Normal value
+Denmark,2022,96.0,Normal value
+Denmark,2023,98.0,Normal value
+Denmark,2024,96.0,Normal value
+Denmark,2025,96.0,Normal value
+Dominican Republic,2000,100.0,Normal value
+Dominican Republic,2001,100.0,Normal value
+Dominican Republic,2002,100.0,Normal value
+Dominican Republic,2003,100.0,Normal value
+Dominican Republic,2004,100.0,Normal value
+Dominican Republic,2005,100.0,Normal value
+Dominican Republic,2006,100.0,Normal value
+Dominican Republic,2007,100.0,Normal value
+Dominican Republic,2008,100.0,Normal value
+Dominican Republic,2009,100.0,Normal value
+Dominican Republic,2010,100.0,Normal value
+Dominican Republic,2011,100.0,Normal value
+Dominican Republic,2012,100.0,Normal value
+Dominican Republic,2013,100.0,Normal value
+Dominican Republic,2022,0.0,Normal value
+Dominican Republic,2023,0.0,Normal value
+Dominican Republic,2024,0.0,Normal value
+Dominican Republic,2025,0.0,Normal value
+Ecuador,2000,20.0,Normal value
+Ecuador,2001,20.0,Normal value
+Ecuador,2002,17.0,Normal value
+Ecuador,2003,25.0,Normal value
+Ecuador,2004,33.0,Normal value
+Ecuador,2005,33.0,Normal value
+Ecuador,2006,33.0,Normal value
+Ecuador,2007,50.0,Normal value
+Ecuador,2008,40.0,Normal value
+Ecuador,2009,40.0,Normal value
+Ecuador,2010,40.0,Normal value
+Ecuador,2011,40.0,Normal value
+Ecuador,2012,50.0,Normal value
+Ecuador,2013,50.0,Normal value
+Ecuador,2014,50.0,Normal value
+Ecuador,2015,50.0,Normal value
+Ecuador,2016,50.0,Normal value
+Ecuador,2017,0.0,Normal value
+Ecuador,2018,29.0,Normal value
+Ecuador,2019,29.0,Normal value
+Ecuador,2020,29.0,Normal value
+Ecuador,2021,29.0,Normal value
+Ecuador,2022,29.0,Normal value
+Ecuador,2023,29.0,Normal value
+Ecuador,2024,29.0,Normal value
+Ecuador,2025,25.0,Normal value
+El Salvador,2000,0.0,Normal value
+El Salvador,2001,0.0,Normal value
+El Salvador,2002,0.0,Normal value
+El Salvador,2003,0.0,Normal value
+El Salvador,2004,0.0,Normal value
+Ethiopia,2000,0.0,Normal value
+Ethiopia,2001,0.0,Normal value
+Ethiopia,2002,0.0,Normal value
+Ethiopia,2003,0.0,Normal value
+Ethiopia,2004,0.0,Normal value
+Ethiopia,2005,13.0,Normal value
+Ethiopia,2006,13.0,Normal value
+Ethiopia,2007,9.0,Normal value
+Ethiopia,2008,5.0,Normal value
+Ethiopia,2009,7.0,Normal value
+Ethiopia,2010,7.0,Normal value
+Ethiopia,2011,7.0,Normal value
+Ethiopia,2012,7.0,Normal value
+Ethiopia,2013,7.0,Normal value
+Ethiopia,2014,7.0,Normal value
+Ethiopia,2015,0.0,Normal value
+Ethiopia,2016,0.0,Normal value
+Ethiopia,2017,0.0,Normal value
+Ethiopia,2018,50.0,Normal value
+Ethiopia,2019,50.0,Normal value
+Ethiopia,2020,25.0,Normal value
+Ethiopia,2021,8.0,Normal value
+Ethiopia,2022,8.0,Normal value
+Ethiopia,2023,8.0,Normal value
+Ethiopia,2024,8.0,Normal value
+Ethiopia,2025,8.0,Normal value
+Eritrea,2000,0.0,Normal value
+Eritrea,2001,0.0,Normal value
+Estonia,2000,70.0,Normal value
+Estonia,2001,70.0,Normal value
+Estonia,2002,70.0,Normal value
+Estonia,2003,70.0,Normal value
+Estonia,2004,60.0,Normal value
+Estonia,2005,60.0,Normal value
+Estonia,2006,60.0,Normal value
+Estonia,2007,67.0,Normal value
+Estonia,2008,67.0,Normal value
+Estonia,2009,67.0,Normal value
+Estonia,2010,67.0,Normal value
+Estonia,2011,67.0,Normal value
+Estonia,2012,67.0,Normal value
+Estonia,2013,67.0,Normal value
+Estonia,2014,67.0,Normal value
+Estonia,2015,67.0,Normal value
+Estonia,2016,67.0,Normal value
+Estonia,2017,100.0,Normal value
+Estonia,2018,100.0,Normal value
+Estonia,2019,100.0,Normal value
+Estonia,2020,100.0,Normal value
+Estonia,2021,100.0,Normal value
+Estonia,2022,100.0,Normal value
+Estonia,2023,100.0,Normal value
+Estonia,2024,100.0,Normal value
+Estonia,2025,100.0,Normal value
+Faroe Islands,2000,0.0,Normal value
+Faroe Islands,2001,0.0,Normal value
+Faroe Islands,2002,0.0,Normal value
+Faroe Islands,2003,0.0,Normal value
+Faroe Islands,2004,0.0,Normal value
+Faroe Islands,2005,0.0,Normal value
+Faroe Islands,2006,0.0,Normal value
+Faroe Islands,2007,0.0,Normal value
+Faroe Islands,2016,100.0,Normal value
+Faroe Islands,2017,50.0,Normal value
+Faroe Islands,2018,50.0,Normal value
+Faroe Islands,2019,50.0,Normal value
+Faroe Islands,2020,50.0,Normal value
+Faroe Islands,2021,50.0,Normal value
+Faroe Islands,2022,50.0,Normal value
+Faroe Islands,2023,50.0,Normal value
+Faroe Islands,2024,50.0,Normal value
+Faroe Islands,2025,50.0,Normal value
+Falkland Islands,2000,67.0,Normal value
+Falkland Islands,2001,67.0,Normal value
+Falkland Islands,2002,67.0,Normal value
+Fiji,2004,0.0,Normal value
+Fiji,2005,0.0,Normal value
+Fiji,2006,0.0,Normal value
+Fiji,2007,0.0,Normal value
+Fiji,2008,0.0,Normal value
+Fiji,2009,0.0,Normal value
+Fiji,2010,0.0,Normal value
+Fiji,2011,0.0,Normal value
+Fiji,2012,0.0,Normal value
+Fiji,2013,0.0,Normal value
+Finland,2000,56.0,Normal value
+Finland,2001,60.0,Normal value
+Finland,2002,60.0,Normal value
+Finland,2003,60.0,Normal value
+Finland,2004,90.0,Normal value
+Finland,2005,90.0,Normal value
+Finland,2006,90.0,Normal value
+Finland,2007,90.0,Normal value
+Finland,2008,90.0,Normal value
+Finland,2009,81.0,Normal value
+Finland,2010,88.0,Normal value
+Finland,2011,83.0,Normal value
+Finland,2012,83.0,Normal value
+Finland,2013,83.0,Normal value
+Finland,2014,83.0,Normal value
+Finland,2015,83.0,Normal value
+Finland,2016,83.0,Normal value
+Finland,2017,83.0,Normal value
+Finland,2018,82.0,Normal value
+Finland,2019,80.0,Normal value
+Finland,2020,76.0,Normal value
+Finland,2021,80.0,Normal value
+Finland,2022,80.0,Normal value
+Finland,2023,76.0,Normal value
+Finland,2024,79.0,Normal value
+Finland,2025,79.0,Normal value
+France,2000,50.0,Normal value
+France,2001,56.0,Normal value
+France,2002,56.0,Normal value
+France,2003,56.0,Normal value
+France,2004,56.0,Normal value
+France,2005,72.0,Normal value
+France,2006,72.0,Normal value
+France,2007,72.0,Normal value
+France,2008,69.0,Normal value
+France,2009,69.0,Normal value
+France,2010,69.0,Normal value
+France,2011,89.0,Normal value
+France,2012,89.0,Normal value
+France,2013,90.0,Normal value
+France,2014,78.0,Normal value
+France,2015,79.0,Normal value
+France,2016,79.0,Normal value
+France,2017,79.0,Normal value
+France,2018,78.0,Normal value
+France,2019,78.0,Normal value
+France,2020,78.0,Normal value
+France,2021,77.0,Normal value
+France,2022,83.0,Normal value
+France,2023,82.0,Normal value
+France,2024,83.0,Normal value
+France,2025,83.0,Normal value
+French Guiana,2000,100.0,Normal value
+French Guiana,2001,100.0,Normal value
+French Guiana,2002,100.0,Normal value
+French Guiana,2003,100.0,Normal value
+Djibouti,2023,44.0,Normal value
+Djibouti,2024,44.0,Normal value
+Djibouti,2025,44.0,Normal value
+Gabon,2025,100.0,Normal value
+Georgia,2001,0.0,Normal value
+Georgia,2002,0.0,Normal value
+Georgia,2003,0.0,Normal value
+Georgia,2004,0.0,Normal value
+Georgia,2005,0.0,Normal value
+Georgia,2006,0.0,Normal value
+Georgia,2007,0.0,Normal value
+Georgia,2008,0.0,Normal value
+Georgia,2009,0.0,Normal value
+Georgia,2010,0.0,Normal value
+West Bank and Gaza,2021,50.0,Normal value
+West Bank and Gaza,2022,50.0,Normal value
+West Bank and Gaza,2023,50.0,Normal value
+West Bank and Gaza,2024,50.0,Normal value
+West Bank and Gaza,2025,50.0,Normal value
+Germany,2000,82.0,Normal value
+Germany,2001,82.0,Normal value
+Germany,2002,82.0,Normal value
+Germany,2003,83.0,Normal value
+Germany,2004,82.0,Normal value
+Germany,2005,84.0,Normal value
+Germany,2006,84.0,Normal value
+Germany,2007,83.0,Normal value
+Germany,2008,86.0,Normal value
+Germany,2009,85.0,Normal value
+Germany,2010,86.0,Normal value
+Germany,2011,86.0,Normal value
+Germany,2012,86.0,Normal value
+Germany,2013,87.0,Normal value
+Germany,2014,88.0,Normal value
+Germany,2015,88.0,Normal value
+Germany,2016,90.0,Normal value
+Germany,2017,90.0,Normal value
+Germany,2018,90.0,Normal value
+Germany,2019,89.0,Normal value
+Germany,2020,88.0,Normal value
+Germany,2021,88.0,Normal value
+Germany,2022,88.0,Normal value
+Germany,2023,89.0,Normal value
+Germany,2024,89.0,Normal value
+Germany,2025,89.0,Normal value
+Ghana,2000,27.0,Normal value
+Ghana,2001,27.0,Normal value
+Ghana,2002,27.0,Normal value
+Ghana,2003,50.0,Normal value
+Ghana,2004,0.0,Normal value
+Ghana,2005,0.0,Normal value
+Ghana,2006,0.0,Normal value
+Ghana,2007,0.0,Normal value
+Ghana,2008,0.0,Normal value
+Ghana,2009,0.0,Normal value
+Ghana,2010,0.0,Normal value
+Ghana,2011,0.0,Normal value
+Ghana,2012,0.0,Normal value
+Ghana,2013,0.0,Normal value
+Ghana,2014,0.0,Normal value
+Ghana,2015,0.0,Normal value
+Ghana,2018,0.0,Normal value
+Ghana,2019,0.0,Normal value
+Ghana,2020,0.0,Normal value
+Ghana,2021,0.0,Normal value
+Ghana,2022,0.0,Normal value
+Ghana,2023,0.0,Normal value
+Ghana,2024,0.0,Normal value
+Ghana,2025,0.0,Normal value
+Greece,2000,79.0,Normal value
+Greece,2001,65.0,Normal value
+Greece,2002,69.0,Normal value
+Greece,2003,69.0,Normal value
+Greece,2004,69.0,Normal value
+Greece,2005,73.0,Normal value
+Greece,2006,70.0,Normal value
+Greece,2007,68.0,Normal value
+Greece,2008,71.0,Normal value
+Greece,2009,70.0,Normal value
+Greece,2010,70.0,Normal value
+Greece,2011,74.0,Normal value
+Greece,2012,70.0,Normal value
+Greece,2013,73.0,Normal value
+Greece,2014,72.0,Normal value
+Greece,2015,68.0,Normal value
+Greece,2016,68.0,Normal value
+Greece,2017,73.0,Normal value
+Greece,2018,73.0,Normal value
+Greece,2019,68.0,Normal value
+Greece,2020,64.0,Normal value
+Greece,2021,61.0,Normal value
+Greece,2022,61.0,Normal value
+Greece,2023,62.0,Normal value
+Greece,2024,62.0,Normal value
+Greece,2025,62.0,Normal value
+Greenland,2000,0.0,Normal value
+Greenland,2001,0.0,Normal value
+Guam,2000,0.0,Normal value
+Guam,2001,0.0,Normal value
+Guatemala,2000,50.0,Normal value
+Guatemala,2001,50.0,Normal value
+Guatemala,2002,50.0,Normal value
+Guatemala,2003,50.0,Normal value
+Guatemala,2004,50.0,Normal value
+Guatemala,2005,50.0,Normal value
+Guatemala,2006,50.0,Normal value
+Guatemala,2007,50.0,Normal value
+Guatemala,2008,50.0,Normal value
+Guatemala,2009,50.0,Normal value
+Guatemala,2010,100.0,Normal value
+Guatemala,2011,100.0,Normal value
+Guatemala,2012,100.0,Normal value
+Guatemala,2013,100.0,Normal value
+Guatemala,2014,100.0,Normal value
+Guatemala,2015,100.0,Normal value
+Guatemala,2016,100.0,Normal value
+Guatemala,2017,100.0,Normal value
+Guinea,2000,0.0,Normal value
+Guinea,2001,0.0,Normal value
+Guinea,2002,0.0,Normal value
+Guinea,2003,0.0,Normal value
+Guinea,2004,0.0,Normal value
+Guinea,2005,0.0,Normal value
+Guinea,2006,0.0,Normal value
+Guinea,2007,0.0,Normal value
+Guinea,2008,0.0,Normal value
+Guinea,2009,0.0,Normal value
+Guinea,2010,0.0,Normal value
+Guinea,2011,0.0,Normal value
+Guinea,2012,0.0,Normal value
+Guinea,2013,0.0,Normal value
+Guinea,2014,0.0,Normal value
+Guinea,2020,33.0,Normal value
+Guinea,2021,33.0,Normal value
+Guinea,2022,17.0,Normal value
+Guinea,2023,17.0,Normal value
+Guinea,2024,17.0,Normal value
+Guinea,2025,17.0,Normal value
+Honduras,2000,0.0,Normal value
+Honduras,2001,0.0,Normal value
+Honduras,2002,0.0,Normal value
+Honduras,2003,0.0,Normal value
+Honduras,2004,0.0,Normal value
+Honduras,2005,0.0,Normal value
+Honduras,2006,0.0,Normal value
+Honduras,2007,0.0,Normal value
+Honduras,2008,0.0,Normal value
+Honduras,2009,0.0,Normal value
+Hungary,2000,70.0,Normal value
+Hungary,2001,71.0,Normal value
+Hungary,2002,65.0,Normal value
+Hungary,2003,67.0,Normal value
+Hungary,2004,74.0,Normal value
+Hungary,2005,73.0,Normal value
+Hungary,2006,74.0,Normal value
+Hungary,2007,76.0,Normal value
+Hungary,2008,79.0,Normal value
+Hungary,2009,77.0,Normal value
+Hungary,2010,80.0,Normal value
+Hungary,2011,80.0,Normal value
+Hungary,2012,85.0,Normal value
+Hungary,2013,87.0,Normal value
+Hungary,2014,88.0,Normal value
+Hungary,2015,87.0,Normal value
+Hungary,2016,89.0,Normal value
+Hungary,2017,80.0,Normal value
+Hungary,2018,80.0,Normal value
+Hungary,2019,68.0,Normal value
+Hungary,2020,57.0,Normal value
+Hungary,2021,57.0,Normal value
+Hungary,2022,55.0,Normal value
+Hungary,2023,55.0,Normal value
+Hungary,2024,55.0,Normal value
+Hungary,2025,55.0,Normal value
+Iceland,2000,33.0,Normal value
+Iceland,2001,33.0,Normal value
+Iceland,2002,33.0,Normal value
+Iceland,2003,33.0,Normal value
+Iceland,2004,33.0,Normal value
+Iceland,2005,33.0,Normal value
+Iceland,2006,33.0,Normal value
+Iceland,2007,33.0,Normal value
+Iceland,2008,33.0,Normal value
+Iceland,2009,33.0,Normal value
+Iceland,2010,33.0,Normal value
+Iceland,2011,50.0,Normal value
+Iceland,2012,50.0,Normal value
+Iceland,2013,50.0,Normal value
+Iceland,2014,50.0,Normal value
+Iceland,2015,33.0,Normal value
+Iceland,2016,50.0,Normal value
+Iceland,2017,50.0,Normal value
+Iceland,2018,33.0,Normal value
+Iceland,2019,50.0,Normal value
+Iceland,2020,50.0,Normal value
+Iceland,2021,50.0,Normal value
+Iceland,2022,50.0,Normal value
+Iceland,2023,33.0,Normal value
+Iceland,2024,50.0,Normal value
+Iceland,2025,50.0,Normal value
+India,2000,67.0,Normal value
+India,2001,20.0,Normal value
+India,2002,20.0,Normal value
+India,2003,20.0,Normal value
+India,2004,0.0,Normal value
+India,2005,0.0,Normal value
+India,2006,14.0,Normal value
+India,2007,9.0,Normal value
+India,2008,9.0,Normal value
+India,2009,15.0,Normal value
+India,2010,13.0,Normal value
+India,2011,27.0,Normal value
+India,2012,15.0,Normal value
+India,2013,11.0,Normal value
+India,2014,11.0,Normal value
+India,2015,12.0,Normal value
+India,2016,13.0,Normal value
+India,2017,13.0,Normal value
+India,2018,13.0,Normal value
+India,2019,12.0,Normal value
+India,2020,12.0,Normal value
+India,2021,11.0,Normal value
+India,2022,14.0,Normal value
+India,2023,14.0,Normal value
+India,2024,14.0,Normal value
+India,2025,13.0,Normal value
+Indonesia,2000,25.0,Normal value
+Indonesia,2001,25.0,Normal value
+Indonesia,2002,20.0,Normal value
+Indonesia,2003,20.0,Normal value
+Indonesia,2004,20.0,Normal value
+Indonesia,2005,20.0,Normal value
+Indonesia,2006,19.0,Normal value
+Indonesia,2007,4.0,Normal value
+Indonesia,2008,4.0,Normal value
+Indonesia,2009,4.0,Normal value
+Indonesia,2010,6.0,Normal value
+Indonesia,2011,8.0,Normal value
+Indonesia,2012,10.0,Normal value
+Indonesia,2013,13.0,Normal value
+Indonesia,2014,14.0,Normal value
+Indonesia,2015,14.0,Normal value
+Indonesia,2016,16.0,Normal value
+Indonesia,2017,16.0,Normal value
+Indonesia,2018,21.0,Normal value
+Indonesia,2019,24.0,Normal value
+Indonesia,2020,27.0,Normal value
+Indonesia,2021,36.0,Normal value
+Indonesia,2022,42.0,Normal value
+Indonesia,2023,41.0,Normal value
+Indonesia,2024,42.0,Normal value
+Indonesia,2025,50.0,Normal value
+"Iran, Islamic Rep.",2000,12.0,Normal value
+"Iran, Islamic Rep.",2001,12.0,Normal value
+"Iran, Islamic Rep.",2002,12.0,Normal value
+"Iran, Islamic Rep.",2003,21.0,Normal value
+"Iran, Islamic Rep.",2004,21.0,Normal value
+"Iran, Islamic Rep.",2005,21.0,Normal value
+"Iran, Islamic Rep.",2006,21.0,Normal value
+"Iran, Islamic Rep.",2007,13.0,Normal value
+"Iran, Islamic Rep.",2008,13.0,Normal value
+"Iran, Islamic Rep.",2009,13.0,Normal value
+"Iran, Islamic Rep.",2010,100.0,Normal value
+"Iran, Islamic Rep.",2011,100.0,Normal value
+"Iran, Islamic Rep.",2012,100.0,Normal value
+"Iran, Islamic Rep.",2019,100.0,Normal value
+"Iran, Islamic Rep.",2020,100.0,Normal value
+"Iran, Islamic Rep.",2021,100.0,Normal value
+"Iran, Islamic Rep.",2022,100.0,Normal value
+"Iran, Islamic Rep.",2023,18.0,Normal value
+"Iran, Islamic Rep.",2024,20.0,Normal value
+"Iran, Islamic Rep.",2025,20.0,Normal value
+Iraq,2000,55.0,Normal value
+Iraq,2001,55.0,Normal value
+Iraq,2002,55.0,Normal value
+Iraq,2003,55.0,Normal value
+Iraq,2004,0.0,Normal value
+Iraq,2005,0.0,Normal value
+Iraq,2006,0.0,Normal value
+Iraq,2007,0.0,Normal value
+Iraq,2008,0.0,Normal value
+Iraq,2009,0.0,Normal value
+Iraq,2010,0.0,Normal value
+Iraq,2011,0.0,Normal value
+Iraq,2012,0.0,Normal value
+Iraq,2013,0.0,Normal value
+Iraq,2014,0.0,Normal value
+Iraq,2015,0.0,Normal value
+Iraq,2016,0.0,Normal value
+Iraq,2017,0.0,Normal value
+Ireland,2000,62.0,Normal value
+Ireland,2001,62.0,Normal value
+Ireland,2002,62.0,Normal value
+Ireland,2003,69.0,Normal value
+Ireland,2004,82.0,Normal value
+Ireland,2005,82.0,Normal value
+Ireland,2006,90.0,Normal value
+Ireland,2007,91.0,Normal value
+Ireland,2008,91.0,Normal value
+Ireland,2009,92.0,Normal value
+Ireland,2010,92.0,Normal value
+Ireland,2011,89.0,Normal value
+Ireland,2012,80.0,Normal value
+Ireland,2013,83.0,Normal value
+Ireland,2014,83.0,Normal value
+Ireland,2015,83.0,Normal value
+Ireland,2016,83.0,Normal value
+Ireland,2017,84.0,Normal value
+Ireland,2018,83.0,Normal value
+Ireland,2019,83.0,Normal value
+Ireland,2020,83.0,Normal value
+Ireland,2021,77.0,Normal value
+Ireland,2022,100.0,Normal value
+Ireland,2023,100.0,Normal value
+Ireland,2024,100.0,Normal value
+Ireland,2025,100.0,Normal value
+Italy,2000,85.0,Normal value
+Italy,2001,89.0,Normal value
+Italy,2002,87.0,Normal value
+Italy,2003,88.0,Normal value
+Italy,2004,89.0,Normal value
+Italy,2005,88.0,Normal value
+Italy,2006,88.0,Normal value
+Italy,2007,89.0,Normal value
+Italy,2008,87.0,Normal value
+Italy,2009,87.0,Normal value
+Italy,2010,82.0,Normal value
+Italy,2011,86.0,Normal value
+Italy,2012,87.0,Normal value
+Italy,2013,86.0,Normal value
+Italy,2014,87.0,Normal value
+Italy,2015,87.0,Normal value
+Italy,2016,87.0,Normal value
+Italy,2017,87.0,Normal value
+Italy,2018,93.0,Normal value
+Italy,2019,90.0,Normal value
+Italy,2020,90.0,Normal value
+Italy,2021,89.0,Normal value
+Italy,2022,91.0,Normal value
+Italy,2023,91.0,Normal value
+Italy,2024,91.0,Normal value
+Italy,2025,90.0,Normal value
+Cote d'Ivoire,2000,0.0,Normal value
+Cote d'Ivoire,2001,0.0,Normal value
+Cote d'Ivoire,2002,0.0,Normal value
+Cote d'Ivoire,2003,0.0,Normal value
+Cote d'Ivoire,2004,0.0,Normal value
+Cote d'Ivoire,2005,0.0,Normal value
+Cote d'Ivoire,2006,0.0,Normal value
+Cote d'Ivoire,2007,0.0,Normal value
+Cote d'Ivoire,2008,0.0,Normal value
+Cote d'Ivoire,2009,0.0,Normal value
+Cote d'Ivoire,2010,0.0,Normal value
+Cote d'Ivoire,2025,0.0,Normal value
+Jamaica,2005,100.0,Normal value
+Jamaica,2006,100.0,Normal value
+Jamaica,2007,100.0,Normal value
+Jamaica,2008,100.0,Normal value
+Jamaica,2009,100.0,Normal value
+Jamaica,2010,100.0,Normal value
+Jamaica,2011,100.0,Normal value
+Jamaica,2012,100.0,Normal value
+Jamaica,2013,100.0,Normal value
+Jamaica,2014,100.0,Normal value
+Japan,2000,60.0,Normal value
+Japan,2001,62.0,Normal value
+Japan,2002,62.0,Normal value
+Japan,2003,60.0,Normal value
+Japan,2004,60.0,Normal value
+Japan,2005,57.0,Normal value
+Japan,2006,58.0,Normal value
+Japan,2007,63.0,Normal value
+Japan,2008,58.0,Normal value
+Japan,2009,70.0,Normal value
+Japan,2010,70.0,Normal value
+Japan,2011,68.0,Normal value
+Japan,2012,68.0,Normal value
+Japan,2013,67.0,Normal value
+Japan,2014,63.0,Normal value
+Japan,2015,63.0,Normal value
+Japan,2016,75.0,Normal value
+Japan,2017,75.0,Normal value
+Kazakhstan,2000,100.0,Normal value
+Kazakhstan,2001,100.0,Normal value
+Kazakhstan,2002,100.0,Normal value
+Kazakhstan,2003,0.0,Normal value
+Kazakhstan,2004,0.0,Normal value
+Kazakhstan,2005,0.0,Normal value
+Kazakhstan,2006,0.0,Normal value
+Kazakhstan,2007,0.0,Normal value
+Kazakhstan,2008,0.0,Normal value
+Kazakhstan,2009,0.0,Normal value
+Kazakhstan,2010,0.0,Normal value
+Kazakhstan,2011,0.0,Normal value
+Kazakhstan,2012,0.0,Normal value
+Jordan,2000,0.0,Normal value
+Jordan,2001,0.0,Normal value
+Jordan,2003,0.0,Normal value
+Jordan,2004,0.0,Normal value
+Jordan,2005,0.0,Normal value
+Jordan,2006,0.0,Normal value
+Jordan,2007,0.0,Normal value
+Jordan,2008,0.0,Normal value
+Jordan,2009,0.0,Normal value
+Jordan,2010,0.0,Normal value
+Jordan,2011,0.0,Normal value
+Jordan,2012,0.0,Normal value
+Kenya,2000,0.0,Normal value
+Kenya,2001,0.0,Normal value
+Kenya,2002,0.0,Normal value
+Kenya,2007,0.0,Normal value
+Kenya,2008,0.0,Normal value
+Kenya,2009,0.0,Normal value
+Kenya,2010,0.0,Normal value
+Kenya,2011,0.0,Normal value
+Kenya,2012,0.0,Normal value
+Kenya,2013,0.0,Normal value
+Kenya,2014,0.0,Normal value
+Kenya,2015,0.0,Normal value
+Kenya,2016,0.0,Normal value
+Kenya,2017,0.0,Normal value
+Kenya,2018,0.0,Normal value
+Kenya,2019,0.0,Normal value
+Kenya,2020,0.0,Normal value
+Kenya,2021,0.0,Normal value
+Kenya,2022,0.0,Normal value
+Kenya,2023,0.0,Normal value
+Kenya,2024,0.0,Normal value
+Kenya,2025,0.0,Normal value
+"Korea, Rep.",2000,75.0,Normal value
+"Korea, Rep.",2001,50.0,Normal value
+"Korea, Rep.",2002,0.0,Normal value
+"Korea, Rep.",2003,0.0,Normal value
+"Korea, Rep.",2004,0.0,Normal value
+"Korea, Rep.",2005,33.0,Normal value
+"Korea, Rep.",2006,50.0,Normal value
+"Korea, Rep.",2007,50.0,Normal value
+"Korea, Rep.",2008,60.0,Normal value
+"Korea, Rep.",2009,67.0,Normal value
+"Korea, Rep.",2010,75.0,Normal value
+"Korea, Rep.",2011,90.0,Normal value
+"Korea, Rep.",2012,93.0,Normal value
+"Korea, Rep.",2013,94.0,Normal value
+"Korea, Rep.",2014,86.0,Normal value
+"Korea, Rep.",2015,87.0,Normal value
+"Korea, Rep.",2016,87.0,Normal value
+"Korea, Rep.",2017,88.0,Normal value
+"Korea, Rep.",2018,88.0,Normal value
+"Korea, Rep.",2019,89.0,Normal value
+"Korea, Rep.",2020,89.0,Normal value
+"Korea, Rep.",2021,86.0,Normal value
+"Korea, Rep.",2022,85.0,Normal value
+"Korea, Rep.",2023,88.0,Normal value
+"Korea, Rep.",2024,96.0,Normal value
+"Korea, Rep.",2025,94.0,Normal value
+Kyrgyz Republic,2000,0.0,Normal value
+Kyrgyz Republic,2001,0.0,Normal value
+Kyrgyz Republic,2002,14.0,Normal value
+Kyrgyz Republic,2003,13.0,Normal value
+Kyrgyz Republic,2004,13.0,Normal value
+Kyrgyz Republic,2005,13.0,Normal value
+Kyrgyz Republic,2006,13.0,Normal value
+Kyrgyz Republic,2007,13.0,Normal value
+Kyrgyz Republic,2008,13.0,Normal value
+Kyrgyz Republic,2009,13.0,Normal value
+Kyrgyz Republic,2010,13.0,Normal value
+Kyrgyz Republic,2011,13.0,Normal value
+Kyrgyz Republic,2012,0.0,Normal value
+Lao PDR,2000,8.0,Normal value
+Lao PDR,2001,8.0,Normal value
+Lao PDR,2002,8.0,Normal value
+Lao PDR,2003,8.0,Normal value
+Lao PDR,2004,25.0,Normal value
+Lao PDR,2005,25.0,Normal value
+Lao PDR,2006,50.0,Normal value
+Lao PDR,2007,50.0,Normal value
+Lao PDR,2008,33.0,Normal value
+Lao PDR,2009,33.0,Normal value
+Lao PDR,2010,33.0,Normal value
+Lao PDR,2011,33.0,Normal value
+Lao PDR,2012,33.0,Normal value
+Lao PDR,2013,33.0,Normal value
+Lesotho,2000,0.0,Normal value
+Lesotho,2001,0.0,Normal value
+Lesotho,2002,0.0,Normal value
+Lesotho,2003,0.0,Normal value
+Lesotho,2005,100.0,Normal value
+Lesotho,2006,100.0,Normal value
+Lesotho,2007,100.0,Normal value
+Lesotho,2008,100.0,Normal value
+Lesotho,2009,100.0,Normal value
+Lesotho,2010,100.0,Normal value
+Lesotho,2011,100.0,Normal value
+Lesotho,2012,100.0,Normal value
+Lesotho,2013,100.0,Normal value
+Lesotho,2014,100.0,Normal value
+Lesotho,2022,0.0,Normal value
+Lesotho,2023,0.0,Normal value
+Lesotho,2024,0.0,Normal value
+Lesotho,2025,0.0,Normal value
+Latvia,2000,50.0,Normal value
+Latvia,2001,50.0,Normal value
+Latvia,2002,50.0,Normal value
+Latvia,2003,50.0,Normal value
+Latvia,2004,33.0,Normal value
+Latvia,2005,33.0,Normal value
+Latvia,2006,33.0,Normal value
+Latvia,2007,33.0,Normal value
+Latvia,2008,33.0,Normal value
+Latvia,2009,33.0,Normal value
+Latvia,2010,33.0,Normal value
+Latvia,2011,33.0,Normal value
+Latvia,2012,33.0,Normal value
+Latvia,2013,86.0,Normal value
+Latvia,2014,86.0,Normal value
+Latvia,2015,86.0,Normal value
+Latvia,2016,86.0,Normal value
+Latvia,2017,86.0,Normal value
+Latvia,2018,86.0,Normal value
+Latvia,2019,86.0,Normal value
+Latvia,2020,89.0,Normal value
+Latvia,2021,89.0,Normal value
+Latvia,2022,89.0,Normal value
+Latvia,2023,89.0,Normal value
+Latvia,2024,89.0,Normal value
+Latvia,2025,89.0,Normal value
+Bulgaria,2000,100.0,Normal value
+Bulgaria,2001,100.0,Normal value
+Bulgaria,2002,88.0,Normal value
+Bulgaria,2003,88.0,Normal value
+Bulgaria,2004,67.0,Normal value
+Bulgaria,2005,67.0,Normal value
+Bulgaria,2006,67.0,Normal value
+Bulgaria,2007,67.0,Normal value
+Bulgaria,2008,67.0,Normal value
+Bulgaria,2009,90.0,Normal value
+Bulgaria,2010,88.0,Normal value
+Bulgaria,2011,92.0,Normal value
+Bulgaria,2012,92.0,Normal value
+Bulgaria,2013,91.0,Normal value
+Bulgaria,2014,81.0,Normal value
+Bulgaria,2015,86.0,Normal value
+Bulgaria,2016,92.0,Normal value
+Bulgaria,2017,82.0,Normal value
+Bulgaria,2018,79.0,Normal value
+Bulgaria,2019,80.0,Normal value
+Bulgaria,2020,80.0,Normal value
+Bulgaria,2021,80.0,Normal value
+Bulgaria,2022,80.0,Normal value
+Bulgaria,2023,80.0,Normal value
+Bulgaria,2024,80.0,Normal value
+Bulgaria,2025,79.0,Normal value
+Myanmar,2000,24.0,Normal value
+Myanmar,2001,21.0,Normal value
+Myanmar,2002,21.0,Normal value
+Myanmar,2003,21.0,Normal value
+Myanmar,2004,17.0,Normal value
+Myanmar,2005,50.0,Normal value
+Myanmar,2006,50.0,Normal value
+Burundi,2000,0.0,Normal value
+Burundi,2001,0.0,Normal value
+Burundi,2002,0.0,Normal value
+Burundi,2003,0.0,Normal value
+Burundi,2004,0.0,Normal value
+Burundi,2005,0.0,Normal value
+Burundi,2006,0.0,Normal value
+Burundi,2007,0.0,Normal value
+Burundi,2008,0.0,Normal value
+Burundi,2009,0.0,Normal value
+Burundi,2010,0.0,Normal value
+Burundi,2011,0.0,Normal value
+Burundi,2012,0.0,Normal value
+Burundi,2013,0.0,Normal value
+Burundi,2014,0.0,Normal value
+Burundi,2015,0.0,Normal value
+Burundi,2016,0.0,Normal value
+Burundi,2017,0.0,Normal value
+Burundi,2018,0.0,Normal value
+Burundi,2019,0.0,Normal value
+Burundi,2020,0.0,Normal value
+Burundi,2021,0.0,Normal value
+Burundi,2022,0.0,Normal value
+Burundi,2023,0.0,Normal value
+Burundi,2024,0.0,Normal value
+Burundi,2025,0.0,Normal value
+Belarus,2003,25.0,Normal value
+Belarus,2004,40.0,Normal value
+Belarus,2005,40.0,Normal value
+Belarus,2006,40.0,Normal value
+Belarus,2007,40.0,Normal value
+Belarus,2008,40.0,Normal value
+Belarus,2009,40.0,Normal value
+Belarus,2010,40.0,Normal value
+Belarus,2011,40.0,Normal value
+Belarus,2012,40.0,Normal value
+Belarus,2013,100.0,Normal value
+Cambodia,2000,13.0,Normal value
+Cambodia,2001,14.0,Normal value
+Cambodia,2002,14.0,Normal value
+Cambodia,2003,0.0,Normal value
+Cameroon,2000,25.0,Normal value
+Cameroon,2001,25.0,Normal value
+Cameroon,2002,0.0,Normal value
+Cameroon,2003,0.0,Normal value
+Cameroon,2004,0.0,Normal value
+Cameroon,2005,0.0,Normal value
+Cameroon,2006,0.0,Normal value
+Cameroon,2007,0.0,Normal value
+Cameroon,2008,0.0,Normal value
+Cameroon,2009,0.0,Normal value
+Cameroon,2010,0.0,Normal value
+Cameroon,2011,0.0,Normal value
+Cameroon,2012,0.0,Normal value
+Canada,2000,78.0,Normal value
+Canada,2001,90.0,Normal value
+Canada,2002,90.0,Normal value
+Canada,2003,89.0,Normal value
+Canada,2004,100.0,Normal value
+Canada,2005,100.0,Normal value
+Canada,2006,100.0,Normal value
+Libya,2020,0.0,Normal value
+Libya,2021,0.0,Normal value
+Libya,2022,0.0,Normal value
+Libya,2023,0.0,Normal value
+Libya,2024,0.0,Normal value
+Libya,2025,0.0,Normal value
+Canada,2007,100.0,Normal value
+Canada,2008,79.0,Normal value
+Canada,2009,100.0,Normal value
+Canada,2010,64.0,Normal value
+Canada,2011,85.0,Normal value
+Canada,2012,62.0,Normal value
+Canada,2013,67.0,Normal value
+Canada,2014,83.0,Normal value
+Canada,2015,67.0,Normal value
+Canada,2016,69.0,Normal value
+Canada,2017,82.0,Normal value
+Canada,2018,82.0,Normal value
+Canada,2019,77.0,Normal value
+Canada,2020,86.0,Normal value
+Canada,2021,90.0,Normal value
+Canada,2022,71.0,Normal value
+Canada,2023,71.0,Normal value
+Canada,2024,71.0,Normal value
+Canada,2025,71.0,Normal value
+Lithuania,2000,55.0,Normal value
+Lithuania,2001,67.0,Normal value
+Lithuania,2002,67.0,Normal value
+Lithuania,2003,54.0,Normal value
+Lithuania,2004,50.0,Normal value
+Lithuania,2005,50.0,Normal value
+Lithuania,2006,50.0,Normal value
+Lithuania,2007,50.0,Normal value
+Lithuania,2008,50.0,Normal value
+Lithuania,2009,50.0,Normal value
+Sri Lanka,2000,75.0,Normal value
+Sri Lanka,2001,67.0,Normal value
+Sri Lanka,2002,0.0,Normal value
+Sri Lanka,2003,0.0,Normal value
+Sri Lanka,2004,0.0,Normal value
+Sri Lanka,2005,0.0,Normal value
+Sri Lanka,2006,0.0,Normal value
+Sri Lanka,2007,0.0,Normal value
+Sri Lanka,2008,0.0,Normal value
+Sri Lanka,2009,0.0,Normal value
+Sri Lanka,2010,36.0,Normal value
+Sri Lanka,2011,36.0,Normal value
+Sri Lanka,2012,40.0,Normal value
+Sri Lanka,2013,40.0,Normal value
+Sri Lanka,2014,40.0,Normal value
+Sri Lanka,2015,40.0,Normal value
+Sri Lanka,2016,40.0,Normal value
+Sri Lanka,2017,40.0,Normal value
+Sri Lanka,2018,40.0,Normal value
+Sri Lanka,2019,40.0,Normal value
+Sri Lanka,2023,67.0,Normal value
+Sri Lanka,2024,56.0,Normal value
+Sri Lanka,2025,56.0,Normal value
+Chad,2000,47.0,Normal value
+Chad,2001,47.0,Normal value
+Chad,2002,47.0,Normal value
+Chad,2003,48.0,Normal value
+Chad,2004,0.0,Normal value
+Chad,2005,0.0,Normal value
+Chad,2006,0.0,Normal value
+Chad,2007,0.0,Normal value
+Chad,2008,0.0,Normal value
+Chad,2009,0.0,Normal value
+Lithuania,2010,55.0,Normal value
+Lithuania,2011,50.0,Normal value
+Lithuania,2012,50.0,Normal value
+Lithuania,2016,100.0,Normal value
+Lithuania,2017,92.0,Normal value
+Lithuania,2018,94.0,Normal value
+Lithuania,2019,94.0,Normal value
+Lithuania,2020,74.0,Normal value
+Lithuania,2021,83.0,Normal value
+Lithuania,2022,86.0,Normal value
+Lithuania,2023,91.0,Normal value
+Lithuania,2024,91.0,Normal value
+Lithuania,2025,91.0,Normal value
+Chile,2000,0.0,Normal value
+Chile,2001,0.0,Normal value
+Chile,2002,0.0,Normal value
+Luxembourg,2013,100.0,Normal value
+Chile,2010,14.0,Normal value
+Chile,2011,14.0,Normal value
+Chile,2012,13.0,Normal value
+Chile,2013,7.0,Normal value
+Chile,2014,7.0,Normal value
+Chile,2015,28.0,Normal value
+Chile,2016,28.0,Normal value
+Chile,2017,17.0,Normal value
+Chile,2018,17.0,Normal value
+Chile,2019,11.0,Normal value
+Luxembourg,2014,100.0,Normal value
+Luxembourg,2015,100.0,Normal value
+Luxembourg,2016,100.0,Normal value
+Luxembourg,2017,100.0,Normal value
+Luxembourg,2018,100.0,Normal value
+Luxembourg,2019,100.0,Normal value
+Luxembourg,2020,100.0,Normal value
+Luxembourg,2021,100.0,Normal value
+Luxembourg,2022,100.0,Normal value
+Chile,2020,11.0,Normal value
+Chile,2021,11.0,Normal value
+Chile,2022,12.0,Normal value
+Chile,2023,12.0,Normal value
+Chile,2024,12.0,Normal value
+Chile,2025,13.0,Normal value
+Madagascar,2000,22.0,Normal value
+Madagascar,2001,22.0,Normal value
+Madagascar,2002,22.0,Normal value
+Madagascar,2003,30.0,Normal value
+Madagascar,2004,33.0,Normal value
+Madagascar,2005,33.0,Normal value
+Madagascar,2006,33.0,Normal value
+Madagascar,2007,33.0,Normal value
+Madagascar,2008,33.0,Normal value
+Madagascar,2009,100.0,Normal value
+Madagascar,2010,100.0,Normal value
+Madagascar,2011,100.0,Normal value
+Madagascar,2012,100.0,Normal value
+China,2000,31.0,Normal value
+China,2001,30.0,Normal value
+China,2002,31.0,Normal value
+China,2003,26.0,Normal value
+China,2004,13.0,Normal value
+China,2005,12.0,Normal value
+China,2006,21.0,Normal value
+China,2007,21.0,Normal value
+China,2008,21.0,Normal value
+China,2009,21.0,Normal value
+China,2010,21.0,Normal value
+China,2011,21.0,Normal value
+China,2012,21.0,Normal value
+China,2013,22.0,Normal value
+China,2014,22.0,Normal value
+China,2015,25.0,Normal value
+China,2016,20.0,Normal value
+China,2017,17.0,Normal value
+China,2018,14.0,Normal value
+China,2019,11.0,Normal value
+China,2020,11.0,Normal value
+China,2021,25.0,Normal value
+China,2022,25.0,Normal value
+China,2023,25.0,Normal value
+China,2024,25.0,Normal value
+China,2025,25.0,Normal value
+Malawi,2000,0.0,Normal value
+Malawi,2001,0.0,Normal value
+Malawi,2002,0.0,Normal value
+Malawi,2003,0.0,Normal value
+Malawi,2004,0.0,Normal value
+Malawi,2005,0.0,Normal value
+Malawi,2006,0.0,Normal value
+Malawi,2007,0.0,Normal value
+Malawi,2008,0.0,Normal value
+Malawi,2009,0.0,Normal value
+Malawi,2010,0.0,Normal value
+Malawi,2011,0.0,Normal value
+Malawi,2012,0.0,Normal value
+Malawi,2013,0.0,Normal value
+Malawi,2014,0.0,Normal value
+Malawi,2015,0.0,Normal value
+Colombia,2000,53.0,Normal value
+Colombia,2001,53.0,Normal value
+Colombia,2002,50.0,Normal value
+Colombia,2003,47.0,Normal value
+Colombia,2004,47.0,Normal value
+Colombia,2005,45.0,Normal value
+Colombia,2006,45.0,Normal value
+Colombia,2007,45.0,Normal value
+Colombia,2008,45.0,Normal value
+Colombia,2009,33.0,Normal value
+Colombia,2010,33.0,Normal value
+Colombia,2011,33.0,Normal value
+Colombia,2012,25.0,Normal value
+Colombia,2013,33.0,Normal value
+Colombia,2014,33.0,Normal value
+Colombia,2015,33.0,Normal value
+Colombia,2016,33.0,Normal value
+Colombia,2017,33.0,Normal value
+Colombia,2018,26.0,Normal value
+Colombia,2019,26.0,Normal value
+Colombia,2020,26.0,Normal value
+Colombia,2021,26.0,Normal value
+Colombia,2022,26.0,Normal value
+Colombia,2023,26.0,Normal value
+Malawi,2016,0.0,Normal value
+Malawi,2017,0.0,Normal value
+Malawi,2018,0.0,Normal value
+Malawi,2019,0.0,Normal value
+Malawi,2020,0.0,Normal value
+Malawi,2021,0.0,Normal value
+Malawi,2022,0.0,Normal value
+Malaysia,2000,42.0,Normal value
+Malaysia,2001,42.0,Normal value
+Malaysia,2002,42.0,Normal value
+Malaysia,2003,45.0,Normal value
+Malaysia,2004,45.0,Normal value
+Malaysia,2005,45.0,Normal value
+Malaysia,2006,50.0,Normal value
+Malaysia,2007,50.0,Normal value
+Malaysia,2008,55.0,Normal value
+Malaysia,2009,55.0,Normal value
+Malaysia,2010,62.0,Normal value
+Malaysia,2011,62.0,Normal value
+Colombia,2024,29.0,Normal value
+Colombia,2025,29.0,Normal value
+Comoros,2003,0.0,Normal value
+Comoros,2004,0.0,Normal value
+Comoros,2005,0.0,Normal value
+Comoros,2006,0.0,Normal value
+Comoros,2007,0.0,Normal value
+Malaysia,2012,62.0,Normal value
+Malaysia,2013,62.0,Normal value
+Malaysia,2014,62.0,Normal value
+Malaysia,2015,58.0,Normal value
+Malaysia,2016,67.0,Normal value
+Malaysia,2017,64.0,Normal value
+Malaysia,2018,50.0,Normal value
+Malaysia,2019,56.0,Normal value
+Malaysia,2020,43.0,Normal value
+Malaysia,2021,43.0,Normal value
+Malaysia,2022,43.0,Normal value
+Malaysia,2023,43.0,Normal value
+Malaysia,2024,43.0,Normal value
+Malaysia,2025,43.0,Normal value
+Maldives,2000,0.0,Normal value
+Maldives,2001,0.0,Normal value
+Maldives,2002,0.0,Normal value
+Maldives,2003,0.0,Normal value
+Comoros,2008,0.0,Normal value
+Comoros,2009,0.0,Normal value
+Comoros,2010,0.0,Normal value
+Comoros,2011,0.0,Normal value
+Comoros,2012,0.0,Normal value
+Cook Islands,2000,50.0,Normal value
+Cook Islands,2001,50.0,Normal value
+Cook Islands,2002,50.0,Normal value
+Cook Islands,2003,50.0,Normal value
+Croatia,2000,78.0,Normal value
+Croatia,2001,78.0,Normal value
+Croatia,2002,78.0,Normal value
+Croatia,2003,82.0,Normal value
+Croatia,2004,71.0,Normal value
+Croatia,2005,60.0,Normal value
+Croatia,2006,64.0,Normal value
+Croatia,2007,64.0,Normal value
+Croatia,2008,76.0,Normal value
+Croatia,2009,72.0,Normal value
+Croatia,2010,72.0,Normal value
+Croatia,2011,72.0,Normal value
+Croatia,2012,72.0,Normal value
+Croatia,2013,73.0,Normal value
+Croatia,2014,73.0,Normal value
+Croatia,2015,76.0,Normal value
+Croatia,2016,81.0,Normal value
+Croatia,2017,81.0,Normal value
+Croatia,2018,78.0,Normal value
+Croatia,2019,79.0,Normal value
+Mali,2000,17.0,Normal value
+Mali,2001,17.0,Normal value
+Mali,2015,0.0,Normal value
+Mali,2016,0.0,Normal value
+Mali,2017,0.0,Normal value
+Mali,2018,0.0,Normal value
+Mali,2019,0.0,Normal value
+Mali,2020,0.0,Normal value
+Mali,2021,0.0,Normal value
+Mali,2022,0.0,Normal value
+Mali,2023,0.0,Normal value
+Mali,2024,0.0,Normal value
+Malta,2000,100.0,Normal value
+Malta,2001,100.0,Normal value
+Malta,2002,100.0,Normal value
+Malta,2003,100.0,Normal value
+Malta,2004,100.0,Normal value
+Malta,2005,100.0,Normal value
+Malta,2006,100.0,Normal value
+Malta,2007,100.0,Normal value
+Malta,2008,100.0,Normal value
+Croatia,2020,77.0,Normal value
+Croatia,2021,77.0,Normal value
+Croatia,2022,77.0,Normal value
+Croatia,2023,80.0,Normal value
+Croatia,2024,80.0,Normal value
+Croatia,2025,80.0,Normal value
+Cuba,2000,43.0,Normal value
+Cuba,2001,43.0,Normal value
+Cuba,2002,43.0,Normal value
+Cyprus,2000,55.0,Normal value
+Malta,2023,100.0,Normal value
+Malta,2024,100.0,Normal value
+Malta,2025,100.0,Normal value
+Mauritania,2000,0.0,Normal value
+Mauritania,2001,0.0,Normal value
+Cyprus,2001,55.0,Normal value
+Cyprus,2002,55.0,Normal value
+Cyprus,2003,100.0,Normal value
+Cyprus,2004,42.0,Normal value
+Cyprus,2005,38.0,Normal value
+Cyprus,2006,46.0,Normal value
+Cyprus,2007,46.0,Normal value
+Cyprus,2008,46.0,Normal value
+Cyprus,2009,46.0,Normal value
+Cyprus,2010,46.0,Normal value
+Cyprus,2011,46.0,Normal value
+Cyprus,2012,46.0,Normal value
+Cyprus,2013,42.0,Normal value
+Cyprus,2014,80.0,Normal value
+Cyprus,2015,80.0,Normal value
+Cyprus,2016,67.0,Normal value
+Cyprus,2017,50.0,Normal value
+Cyprus,2018,100.0,Normal value
+Cyprus,2019,100.0,Normal value
+Cyprus,2020,100.0,Normal value
+Cyprus,2021,100.0,Normal value
+Cyprus,2022,100.0,Normal value
+Cyprus,2023,100.0,Normal value
+Cyprus,2024,100.0,Normal value
+Cyprus,2025,100.0,Normal value
+Mauritania,2020,0.0,Normal value
+Mauritania,2021,0.0,Normal value
+Mauritania,2022,0.0,Normal value
+Mauritania,2023,0.0,Normal value
+Mauritania,2024,0.0,Normal value
+Mauritania,2025,0.0,Normal value
+Mauritius,2000,100.0,Normal value
+Mauritius,2001,100.0,Normal value
+Mauritius,2002,100.0,Normal value
+Mauritius,2003,100.0,Normal value
+Mauritius,2004,100.0,Normal value
+Mauritius,2005,100.0,Normal value
+Mauritius,2006,100.0,Normal value
+Mauritius,2007,100.0,Normal value
+Mauritius,2008,100.0,Normal value
+Mauritius,2009,100.0,Normal value
+Mauritius,2010,100.0,Normal value
+Mauritius,2011,100.0,Normal value
+Czechia,2000,80.0,Normal value
+Czechia,2001,80.0,Normal value
+Czechia,2002,80.0,Normal value
+Czechia,2003,94.0,Normal value
+Czechia,2004,80.0,Normal value
+Czechia,2005,84.0,Normal value
+Czechia,2006,84.0,Normal value
+Czechia,2007,81.0,Normal value
+Czechia,2008,85.0,Normal value
+Czechia,2009,85.0,Normal value
+Czechia,2010,85.0,Normal value
+Czechia,2011,81.0,Normal value
+Czechia,2012,81.0,Normal value
+Czechia,2013,84.0,Normal value
+Czechia,2014,84.0,Normal value
+Czechia,2015,84.0,Normal value
+Czechia,2016,84.0,Normal value
+Czechia,2017,85.0,Normal value
+Czechia,2018,85.0,Normal value
+Czechia,2019,85.0,Normal value
+Czechia,2020,89.0,Normal value
+Czechia,2021,93.0,Normal value
+Czechia,2022,95.0,Normal value
+Czechia,2023,95.0,Normal value
+Czechia,2024,95.0,Normal value
+Czechia,2025,95.0,Normal value
+Benin,2000,0.0,Normal value
+Benin,2001,0.0,Normal value
+Benin,2003,0.0,Normal value
+Benin,2004,0.0,Normal value
+Benin,2005,0.0,Normal value
+Benin,2006,0.0,Normal value
+Benin,2007,0.0,Normal value
+Benin,2008,0.0,Normal value
+Benin,2009,0.0,Normal value
+Benin,2010,0.0,Normal value
+Benin,2011,0.0,Normal value
+Benin,2012,0.0,Normal value
+Mauritius,2012,100.0,Normal value
+Mauritius,2013,100.0,Normal value
+Mauritius,2014,100.0,Normal value
+Mauritius,2015,100.0,Normal value
+Mauritius,2016,100.0,Normal value
+Mauritius,2017,100.0,Normal value
+Mauritius,2018,100.0,Normal value
+Mauritius,2019,100.0,Normal value
+Mauritius,2020,100.0,Normal value
+Mauritius,2021,100.0,Normal value
+Syrian Arab Republic,2002,50.0,Normal value
+Syrian Arab Republic,2003,33.0,Normal value
+Syrian Arab Republic,2004,33.0,Normal value
+Syrian Arab Republic,2005,0.0,Normal value
+Syrian Arab Republic,2006,0.0,Normal value
+Syrian Arab Republic,2007,0.0,Normal value
+Syrian Arab Republic,2008,0.0,Normal value
+Syrian Arab Republic,2009,0.0,Normal value
+Syrian Arab Republic,2010,0.0,Normal value
+Syrian Arab Republic,2011,0.0,Normal value
+Syrian Arab Republic,2012,0.0,Normal value
+Mauritius,2022,100.0,Normal value
+Mauritius,2023,100.0,Normal value
+Mauritius,2024,100.0,Normal value
+Mauritius,2025,100.0,Normal value
+Mexico,2000,50.0,Normal value
+Mexico,2001,100.0,Normal value
+Mexico,2002,67.0,Normal value
+Mexico,2003,60.0,Normal value
+Mexico,2004,60.0,Normal value
+Mexico,2005,60.0,Normal value
+Tajikistan,2003,0.0,Normal value
+Tajikistan,2004,0.0,Normal value
+Tajikistan,2005,0.0,Normal value
+Tajikistan,2006,0.0,Normal value
+Tajikistan,2007,0.0,Normal value
+Tajikistan,2008,0.0,Normal value
+Tajikistan,2009,0.0,Normal value
+Tajikistan,2010,0.0,Normal value
+Tajikistan,2011,0.0,Normal value
+Tajikistan,2012,0.0,Normal value
+Thailand,2000,20.0,Normal value
+Thailand,2001,18.0,Normal value
+Thailand,2002,18.0,Normal value
+Thailand,2003,8.0,Normal value
+Thailand,2004,17.0,Normal value
+Thailand,2005,8.0,Normal value
+Thailand,2006,8.0,Normal value
+Thailand,2007,8.0,Normal value
+Thailand,2008,6.0,Normal value
+Thailand,2009,6.0,Normal value
+Thailand,2010,6.0,Normal value
+Thailand,2011,6.0,Normal value
+Thailand,2012,6.0,Normal value
+Thailand,2013,13.0,Normal value
+Thailand,2014,13.0,Normal value
+Thailand,2015,13.0,Normal value
+Thailand,2016,13.0,Normal value
+Mexico,2006,60.0,Normal value
+Mexico,2007,60.0,Normal value
+Mexico,2008,60.0,Normal value
+Mexico,2009,60.0,Normal value
+Mexico,2010,70.0,Normal value
+Mexico,2011,70.0,Normal value
+Mexico,2012,80.0,Normal value
+Mexico,2013,80.0,Normal value
+Mexico,2014,60.0,Normal value
+Mexico,2015,60.0,Normal value
+Mexico,2016,50.0,Normal value
+Mexico,2017,50.0,Normal value
+Mexico,2018,50.0,Normal value
+Mexico,2019,50.0,Normal value
+Mexico,2020,0.0,Normal value
+Mexico,2021,0.0,Normal value
+Mexico,2022,0.0,Normal value
+Mexico,2023,50.0,Normal value
+Mexico,2024,50.0,Normal value
+Mexico,2025,50.0,Normal value
+Thailand,2017,13.0,Normal value
+Thailand,2018,13.0,Normal value
+Thailand,2019,13.0,Normal value
+Thailand,2020,13.0,Normal value
+Thailand,2021,13.0,Normal value
+Thailand,2022,13.0,Normal value
+Thailand,2023,13.0,Normal value
+Thailand,2024,13.0,Normal value
+Thailand,2025,13.0,Normal value
+Togo,2000,25.0,Normal value
+Mongolia,2000,11.0,Normal value
+Mongolia,2001,13.0,Normal value
+Mongolia,2002,19.0,Normal value
+Mongolia,2003,20.0,Normal value
+Mongolia,2004,20.0,Normal value
+Mongolia,2005,17.0,Normal value
+Mongolia,2006,17.0,Normal value
+Mongolia,2007,13.0,Normal value
+Mongolia,2008,13.0,Normal value
+Mongolia,2009,13.0,Normal value
+Mongolia,2010,13.0,Normal value
+Mongolia,2011,13.0,Normal value
+Mongolia,2012,0.0,Normal value
+Mongolia,2013,0.0,Normal value
+Mongolia,2014,0.0,Normal value
+Mongolia,2015,0.0,Normal value
+Mongolia,2016,0.0,Normal value
+Mongolia,2017,31.0,Normal value
+Mongolia,2018,31.0,Normal value
+Mongolia,2019,27.0,Normal value
+Mongolia,2020,27.0,Normal value
+Togo,2001,25.0,Normal value
+Togo,2002,25.0,Normal value
+Togo,2003,25.0,Normal value
+Togo,2004,25.0,Normal value
+Togo,2005,25.0,Normal value
+Mongolia,2021,27.0,Normal value
+Mongolia,2022,28.0,Normal value
+Mongolia,2023,28.0,Normal value
+Mongolia,2024,28.0,Normal value
+Mongolia,2025,28.0,Normal value
+Moldova,2000,43.0,Normal value
+Moldova,2001,43.0,Normal value
+Moldova,2002,70.0,Normal value
+Moldova,2003,70.0,Normal value
+Moldova,2004,83.0,Normal value
+Tonga,2001,100.0,Normal value
+Tonga,2002,100.0,Normal value
+Tonga,2003,100.0,Normal value
+Tonga,2004,100.0,Normal value
+Tonga,2005,100.0,Normal value
+Tonga,2006,100.0,Normal value
+Tonga,2007,100.0,Normal value
+Tonga,2008,100.0,Normal value
+Tonga,2009,100.0,Normal value
+Tonga,2010,100.0,Normal value
+United Arab Emirates,2008,0.0,Normal value
+United Arab Emirates,2009,0.0,Normal value
+United Arab Emirates,2010,0.0,Normal value
+United Arab Emirates,2011,0.0,Normal value
+United Arab Emirates,2012,0.0,Normal value
+Moldova,2005,83.0,Normal value
+Moldova,2006,83.0,Normal value
+Moldova,2007,83.0,Normal value
+Moldova,2008,83.0,Normal value
+Moldova,2009,83.0,Normal value
+Moldova,2010,80.0,Normal value
+Moldova,2011,80.0,Normal value
+United Arab Emirates,2013,0.0,Normal value
+United Arab Emirates,2014,0.0,Normal value
+United Arab Emirates,2015,0.0,Normal value
+United Arab Emirates,2016,0.0,Normal value
+United Arab Emirates,2017,0.0,Normal value
+Moldova,2024,75.0,Normal value
+Tunisia,2000,0.0,Normal value
+Tunisia,2001,50.0,Normal value
+Tunisia,2002,50.0,Normal value
+Tunisia,2003,50.0,Normal value
+Tunisia,2004,33.0,Normal value
+Tunisia,2005,33.0,Normal value
+Tunisia,2006,33.0,Normal value
+Moldova,2025,75.0,Normal value
+Montenegro,2008,50.0,Normal value
+Tunisia,2007,33.0,Normal value
+Tunisia,2008,33.0,Normal value
+Tunisia,2009,25.0,Normal value
+Tunisia,2010,20.0,Normal value
+Tunisia,2011,20.0,Normal value
+Tunisia,2012,20.0,Normal value
+Tunisia,2013,20.0,Normal value
+Tunisia,2014,20.0,Normal value
+Tunisia,2015,20.0,Normal value
+Tunisia,2016,20.0,Normal value
+Tunisia,2017,20.0,Normal value
+Tunisia,2018,20.0,Normal value
+Tunisia,2019,33.0,Normal value
+Tunisia,2020,17.0,Normal value
+Tunisia,2021,17.0,Normal value
+Tunisia,2022,20.0,Normal value
+Tunisia,2023,20.0,Normal value
+Tunisia,2024,20.0,Normal value
+Tunisia,2025,20.0,Normal value
+Turkiye,2000,33.0,Normal value
+Turkiye,2001,33.0,Normal value
+Turkiye,2002,33.0,Normal value
+Montenegro,2009,67.0,Normal value
+Montenegro,2010,100.0,Normal value
+Montenegro,2011,89.0,Normal value
+Montenegro,2012,80.0,Normal value
+Montenegro,2013,80.0,Normal value
+Montenegro,2014,80.0,Normal value
+Montenegro,2015,80.0,Normal value
+Montenegro,2016,82.0,Normal value
+Montenegro,2017,83.0,Normal value
+Montenegro,2018,83.0,Normal value
+Turkiye,2003,50.0,Normal value
+Turkiye,2004,44.0,Normal value
+Turkiye,2005,44.0,Normal value
+Turkiye,2006,44.0,Normal value
+Turkiye,2007,44.0,Normal value
+Turkiye,2008,0.0,Normal value
+Turkiye,2009,0.0,Normal value
+Turkiye,2010,0.0,Normal value
+Turkiye,2011,25.0,Normal value
+Turkiye,2012,32.0,Normal value
+Turkiye,2013,43.0,Normal value
+Turkiye,2014,43.0,Normal value
+Turkiye,2015,43.0,Normal value
+Turkiye,2016,43.0,Normal value
+Turkiye,2017,43.0,Normal value
+Turkiye,2018,43.0,Normal value
+Turkiye,2019,43.0,Normal value
+Turkiye,2020,43.0,Normal value
+Turkiye,2021,42.0,Normal value
+Turkiye,2022,53.0,Normal value
+Turkiye,2023,25.0,Normal value
+Turkiye,2024,28.0,Normal value
+Turkiye,2025,28.0,Normal value
+Turkmenistan,2004,0.0,Normal value
+Turkmenistan,2005,0.0,Normal value
+Turkmenistan,2006,0.0,Normal value
+Turkmenistan,2007,0.0,Normal value
+Turkmenistan,2008,0.0,Normal value
+Turkmenistan,2009,0.0,Normal value
+Turkmenistan,2010,0.0,Normal value
+Turkmenistan,2011,0.0,Normal value
+Turkmenistan,2012,0.0,Normal value
+Turkmenistan,2013,0.0,Normal value
+Montenegro,2019,83.0,Normal value
+Montenegro,2020,83.0,Normal value
+Montenegro,2021,92.0,Normal value
+Montenegro,2022,92.0,Normal value
+Montenegro,2023,92.0,Normal value
+Montenegro,2024,92.0,Normal value
+Montenegro,2025,92.0,Normal value
+Morocco,2000,9.0,Normal value
+Morocco,2001,9.0,Normal value
+Morocco,2002,9.0,Normal value
+Tuvalu,2002,0.0,Normal value
+Tuvalu,2003,0.0,Normal value
+Morocco,2003,0.0,Normal value
+Morocco,2004,0.0,Normal value
+Morocco,2005,0.0,Normal value
+Morocco,2006,0.0,Normal value
+Morocco,2007,0.0,Normal value
+Morocco,2008,0.0,Normal value
+Morocco,2009,0.0,Normal value
+Morocco,2010,0.0,Normal value
+Morocco,2011,0.0,Normal value
+Morocco,2012,0.0,Normal value
+Tuvalu,2004,0.0,Normal value
+Tuvalu,2005,0.0,Normal value
+Tuvalu,2006,0.0,Normal value
+Tuvalu,2007,0.0,Normal value
+Tuvalu,2008,0.0,Normal value
+Tuvalu,2009,0.0,Normal value
+Tuvalu,2010,0.0,Normal value
+Tuvalu,2011,0.0,Normal value
+Uganda,2000,0.0,Normal value
+Uganda,2002,0.0,Normal value
+Uganda,2003,0.0,Normal value
+Uganda,2004,0.0,Normal value
+Uganda,2005,0.0,Normal value
+Uganda,2006,0.0,Normal value
+Uganda,2007,0.0,Normal value
+Uganda,2008,0.0,Normal value
+Uganda,2009,0.0,Normal value
+Uganda,2010,0.0,Normal value
+Uganda,2011,0.0,Normal value
+Ukraine,2000,86.0,Normal value
+Ukraine,2001,33.0,Normal value
+Ukraine,2002,36.0,Normal value
+Ukraine,2003,61.0,Normal value
+Ukraine,2004,59.0,Normal value
+Ukraine,2005,53.0,Normal value
+Ukraine,2006,50.0,Normal value
+Ukraine,2007,46.0,Normal value
+Ukraine,2008,53.0,Normal value
+Ukraine,2009,51.0,Normal value
+Ukraine,2010,54.0,Normal value
+Ukraine,2011,54.0,Normal value
+Ukraine,2012,56.0,Normal value
+Ukraine,2013,57.0,Normal value
+Ukraine,2014,62.0,Normal value
+Ukraine,2015,64.0,Normal value
+Ukraine,2016,63.0,Normal value
+Ukraine,2017,71.0,Normal value
+Ukraine,2018,74.0,Normal value
+Ukraine,2019,71.0,Normal value
+Ukraine,2020,73.0,Normal value
+Ukraine,2021,77.0,Normal value
+Ukraine,2022,78.0,Normal value
+Ukraine,2023,78.0,Normal value
+Ukraine,2024,78.0,Normal value
+Ukraine,2025,78.0,Normal value
+North Macedonia,2000,33.0,Normal value
+North Macedonia,2001,33.0,Normal value
+Morocco,2013,0.0,Normal value
+Morocco,2014,0.0,Normal value
+Morocco,2017,100.0,Normal value
+Morocco,2018,25.0,Normal value
+Morocco,2019,38.0,Normal value
+Morocco,2020,38.0,Normal value
+Morocco,2021,42.0,Normal value
+Morocco,2022,42.0,Normal value
+North Macedonia,2002,33.0,Normal value
+North Macedonia,2003,33.0,Normal value
+North Macedonia,2004,33.0,Normal value
+North Macedonia,2005,33.0,Normal value
+North Macedonia,2006,33.0,Normal value
+North Macedonia,2007,33.0,Normal value
+North Macedonia,2008,33.0,Normal value
+North Macedonia,2009,33.0,Normal value
+North Macedonia,2010,33.0,Normal value
+North Macedonia,2011,33.0,Normal value
+North Macedonia,2012,50.0,Normal value
+"Egypt, Arab Rep.",2000,6.0,Normal value
+"Egypt, Arab Rep.",2001,6.0,Normal value
+"Egypt, Arab Rep.",2002,4.0,Normal value
+"Egypt, Arab Rep.",2003,100.0,Normal value
+"Egypt, Arab Rep.",2004,100.0,Normal value
+"Egypt, Arab Rep.",2005,100.0,Normal value
+"Egypt, Arab Rep.",2006,100.0,Normal value
+"Egypt, Arab Rep.",2007,100.0,Normal value
+"Egypt, Arab Rep.",2008,100.0,Normal value
+"Egypt, Arab Rep.",2009,100.0,Normal value
+"Egypt, Arab Rep.",2010,100.0,Normal value
+"Egypt, Arab Rep.",2011,100.0,Normal value
+"Egypt, Arab Rep.",2012,100.0,Normal value
+United Kingdom,2000,87.0,Normal value
+United Kingdom,2001,87.0,Normal value
+United Kingdom,2002,88.0,Normal value
+United Kingdom,2003,88.0,Normal value
+United Kingdom,2004,88.0,Normal value
+United Kingdom,2005,88.0,Normal value
+United Kingdom,2006,89.0,Normal value
+United Kingdom,2007,90.0,Normal value
+United Kingdom,2008,91.0,Normal value
+United Kingdom,2009,91.0,Normal value
+United Kingdom,2010,91.0,Normal value
+United Kingdom,2011,91.0,Normal value
+United Kingdom,2012,88.0,Normal value
+United Kingdom,2013,88.0,Normal value
+United Kingdom,2014,88.0,Normal value
+United Kingdom,2015,87.0,Normal value
+United Kingdom,2016,88.0,Normal value
+United Kingdom,2017,88.0,Normal value
+United Kingdom,2018,88.0,Normal value
+United Kingdom,2019,88.0,Normal value
+United Kingdom,2020,88.0,Normal value
+United Kingdom,2021,87.0,Normal value
+United Kingdom,2022,88.0,Normal value
+United Kingdom,2023,87.0,Normal value
+United Kingdom,2024,88.0,Normal value
+United Kingdom,2025,89.0,Normal value
+Tanzania,2000,75.0,Normal value
+Tanzania,2001,89.0,Normal value
+Tanzania,2002,89.0,Normal value
+Tanzania,2003,89.0,Normal value
+Tanzania,2004,100.0,Normal value
+Morocco,2023,42.0,Normal value
+Morocco,2024,42.0,Normal value
+Morocco,2025,42.0,Normal value
+Mozambique,2000,33.0,Normal value
+Mozambique,2001,33.0,Normal value
+Mozambique,2002,50.0,Normal value
+Mozambique,2003,50.0,Normal value
+Mozambique,2004,50.0,Normal value
+Mozambique,2005,50.0,Normal value
+Mozambique,2006,50.0,Normal value
+Mozambique,2007,50.0,Normal value
+Tanzania,2005,100.0,Normal value
+Tanzania,2006,100.0,Normal value
+Tanzania,2007,100.0,Normal value
+Tanzania,2008,37.0,Normal value
+Tanzania,2009,37.0,Normal value
+Tanzania,2010,37.0,Normal value
+Tanzania,2011,24.0,Normal value
+Tanzania,2012,24.0,Normal value
+Tanzania,2013,7.0,Normal value
+Tanzania,2014,7.0,Normal value
+Tanzania,2015,7.0,Normal value
+Tanzania,2016,7.0,Normal value
+Tanzania,2017,7.0,Normal value
+Tanzania,2018,18.0,Normal value
+Tanzania,2019,18.0,Normal value
+Tanzania,2020,18.0,Normal value
+Tanzania,2021,18.0,Normal value
+Tanzania,2022,18.0,Normal value
+Tanzania,2023,19.0,Normal value
+Tanzania,2024,19.0,Normal value
+Mozambique,2008,50.0,Normal value
+Mozambique,2009,50.0,Normal value
+Mozambique,2010,33.0,Normal value
+Mozambique,2011,33.0,Normal value
+Mozambique,2012,0.0,Normal value
+Mozambique,2013,0.0,Normal value
+Mozambique,2014,0.0,Normal value
+Mozambique,2015,0.0,Normal value
+Mozambique,2016,0.0,Normal value
+Mozambique,2017,0.0,Normal value
+Mozambique,2018,0.0,Normal value
+Mozambique,2019,0.0,Normal value
+Mozambique,2020,0.0,Normal value
+Mozambique,2021,0.0,Normal value
+Mozambique,2022,0.0,Normal value
+Mozambique,2023,0.0,Normal value
+Mozambique,2024,0.0,Normal value
+Mozambique,2025,0.0,Normal value
+Oman,2013,0.0,Normal value
+Oman,2014,0.0,Normal value
+Oman,2015,0.0,Normal value
+Oman,2016,0.0,Normal value
+Oman,2017,0.0,Normal value
+Oman,2018,0.0,Normal value
+Oman,2019,0.0,Normal value
+Oman,2020,0.0,Normal value
+Oman,2021,0.0,Normal value
+Oman,2022,0.0,Normal value
+Oman,2023,0.0,Normal value
+Oman,2024,0.0,Normal value
+Oman,2025,0.0,Normal value
+Tanzania,2025,19.0,Normal value
+United States,2000,85.0,Normal value
+United States,2001,82.0,Normal value
+United States,2002,85.0,Normal value
+United States,2003,86.0,Normal value
+United States,2004,93.0,Normal value
+United States,2005,93.0,Normal value
+United States,2006,94.0,Normal value
+United States,2007,94.0,Normal value
+United States,2008,94.0,Normal value
+United States,2009,94.0,Normal value
+United States,2010,96.0,Normal value
+United States,2011,96.0,Normal value
+United States,2012,96.0,Normal value
+United States,2013,95.0,Normal value
+United States,2014,94.0,Normal value
+United States,2015,92.0,Normal value
+United States,2016,92.0,Normal value
+United States,2017,90.0,Normal value
+United States,2018,91.0,Normal value
+United States,2019,91.0,Normal value
+United States,2020,89.0,Normal value
+United States,2021,88.0,Normal value
+United States,2022,90.0,Normal value
+United States,2023,90.0,Normal value
+United States,2024,88.0,Normal value
+United States,2025,89.0,Normal value
+Burkina Faso,2000,40.0,Normal value
+Burkina Faso,2001,40.0,Normal value
+Burkina Faso,2002,40.0,Normal value
+Burkina Faso,2003,40.0,Normal value
+Uruguay,2000,50.0,Normal value
+Uruguay,2001,50.0,Normal value
+Uruguay,2002,50.0,Normal value
+Uruguay,2003,50.0,Normal value
+Uruguay,2004,67.0,Normal value
+Uruguay,2005,67.0,Normal value
+Uruguay,2006,67.0,Normal value
+Uruguay,2007,67.0,Normal value
+Uruguay,2008,67.0,Normal value
+Uruguay,2009,67.0,Normal value
+Uruguay,2010,67.0,Normal value
+Uruguay,2011,75.0,Normal value
+Uruguay,2012,75.0,Normal value
+Uruguay,2013,75.0,Normal value
+Uruguay,2014,50.0,Normal value
+Uruguay,2015,67.0,Normal value
+Uruguay,2016,67.0,Normal value
+Uruguay,2017,80.0,Normal value
+Uruguay,2018,86.0,Normal value
+Uruguay,2019,86.0,Normal value
+Uruguay,2020,86.0,Normal value
+Uruguay,2021,86.0,Normal value
+Uruguay,2022,75.0,Normal value
+Uruguay,2023,78.0,Normal value
+Uruguay,2024,78.0,Normal value
+Uruguay,2025,78.0,Normal value
+Uzbekistan,2003,0.0,Normal value
+Uzbekistan,2004,0.0,Normal value
+Uzbekistan,2005,0.0,Normal value
+Uzbekistan,2006,0.0,Normal value
+Uzbekistan,2007,0.0,Normal value
+Uzbekistan,2008,0.0,Normal value
+Uzbekistan,2009,0.0,Normal value
+Uzbekistan,2010,0.0,Normal value
+Uzbekistan,2011,0.0,Normal value
+Uzbekistan,2012,0.0,Normal value
+Uzbekistan,2024,0.0,Normal value
+Uzbekistan,2025,0.0,Normal value
+"Yemen, Rep.",2004,50.0,Normal value
+"Yemen, Rep.",2005,50.0,Normal value
+"Yemen, Rep.",2006,50.0,Normal value
+"Yemen, Rep.",2007,50.0,Normal value
+"Yemen, Rep.",2008,50.0,Normal value
+"Yemen, Rep.",2009,50.0,Normal value
+"Yemen, Rep.",2010,50.0,Normal value
+"Yemen, Rep.",2011,50.0,Normal value
+"Yemen, Rep.",2012,50.0,Normal value
+"Yemen, Rep.",2013,50.0,Normal value
+"Yemen, Rep.",2019,0.0,Normal value
+"Yemen, Rep.",2020,0.0,Normal value
+"Yemen, Rep.",2021,6.0,Normal value
+"Yemen, Rep.",2022,6.0,Normal value
+"Yemen, Rep.",2023,6.0,Normal value
+"Yemen, Rep.",2024,6.0,Normal value
+"Yemen, Rep.",2025,6.0,Normal value
+Zambia,2000,0.0,Normal value
+Zambia,2001,0.0,Normal value
+Zambia,2002,0.0,Normal value
+Zambia,2003,0.0,Normal value
+Zambia,2004,0.0,Normal value
+Zambia,2005,0.0,Normal value
+Zambia,2006,0.0,Normal value
+Zambia,2007,0.0,Normal value
+Zambia,2008,0.0,Normal value
+Namibia,2000,100.0,Normal value
+Namibia,2001,100.0,Normal value
+Namibia,2002,100.0,Normal value
+Namibia,2003,100.0,Normal value
+Namibia,2011,100.0,Normal value
+Namibia,2012,100.0,Normal value
+Namibia,2013,100.0,Normal value
+Namibia,2014,63.0,Normal value
+Namibia,2015,63.0,Normal value
+Namibia,2016,64.0,Normal value
+Namibia,2017,64.0,Normal value
+Namibia,2018,64.0,Normal value
+Namibia,2019,64.0,Normal value
+Namibia,2020,64.0,Normal value
+Namibia,2021,64.0,Normal value
+Namibia,2022,64.0,Normal value
+Namibia,2023,64.0,Normal value
+Namibia,2024,100.0,Normal value
+Namibia,2025,100.0,Normal value
+Nepal,2000,0.0,Normal value
+Nepal,2001,0.0,Normal value
+Nepal,2002,0.0,Normal value
+Netherlands,2000,92.0,Normal value
+Netherlands,2001,96.0,Normal value
+Netherlands,2002,97.0,Normal value
+Netherlands,2003,95.0,Normal value
+Netherlands,2004,95.0,Normal value
+Netherlands,2005,95.0,Normal value
+Netherlands,2006,95.0,Normal value
+Netherlands,2007,93.0,Normal value
+Netherlands,2008,94.0,Normal value
+Netherlands,2009,94.0,Normal value
+Netherlands,2010,94.0,Normal value
+Netherlands,2011,95.0,Normal value
+Netherlands,2012,96.0,Normal value
+Netherlands,2013,95.0,Normal value
+Netherlands,2014,96.0,Normal value
+Netherlands,2015,96.0,Normal value
+Netherlands,2016,96.0,Normal value
+Netherlands,2017,96.0,Normal value
+Netherlands,2018,96.0,Normal value
+Netherlands,2019,95.0,Normal value
+Netherlands,2020,95.0,Normal value
+Netherlands,2021,96.0,Normal value
+Netherlands,2022,92.0,Normal value
+Netherlands,2023,93.0,Normal value
+Netherlands,2024,96.0,Normal value
+Netherlands,2025,96.0,Normal value
+Vanuatu,2000,0.0,Normal value
+Vanuatu,2001,0.0,Normal value
+Vanuatu,2002,40.0,Normal value
+Vanuatu,2003,67.0,Normal value
+Vanuatu,2004,67.0,Normal value
+Vanuatu,2005,67.0,Normal value
+Vanuatu,2006,67.0,Normal value
+Vanuatu,2007,67.0,Normal value
+Vanuatu,2008,67.0,Normal value
+Vanuatu,2009,67.0,Normal value
+Vanuatu,2010,67.0,Normal value
+Vanuatu,2011,67.0,Normal value
+New Zealand,2000,100.0,Normal value
+New Zealand,2001,100.0,Normal value
+New Zealand,2002,100.0,Normal value
+New Zealand,2022,100.0,Normal value
+New Zealand,2023,100.0,Normal value
+New Zealand,2024,96.0,Normal value
+New Zealand,2025,96.0,Normal value
+Nicaragua,2002,100.0,Normal value
+Nicaragua,2003,100.0,Normal value
+Nicaragua,2004,100.0,Normal value
+Nicaragua,2005,100.0,Normal value
+Nicaragua,2006,100.0,Normal value
+Nicaragua,2007,100.0,Normal value
+Nicaragua,2008,100.0,Normal value
+Nicaragua,2009,100.0,Normal value
+Nicaragua,2010,100.0,Normal value
+Nicaragua,2011,100.0,Normal value
+Niger,2000,0.0,Normal value
+Niger,2001,0.0,Normal value
+Niger,2002,0.0,Normal value
+Niger,2005,0.0,Normal value
+Niger,2006,0.0,Normal value
+Niger,2007,0.0,Normal value
+Niger,2008,0.0,Normal value
+Niger,2009,0.0,Normal value
+Niger,2010,0.0,Normal value
+Niger,2011,0.0,Normal value
+Niger,2012,0.0,Normal value
+Niger,2013,0.0,Normal value
+Niger,2014,0.0,Normal value
+Niger,2015,0.0,Normal value
+Niger,2016,25.0,Normal value
+Niger,2017,25.0,Normal value
+Niger,2018,15.0,Normal value
+Niger,2019,15.0,Normal value
+Niger,2020,15.0,Normal value
+Niger,2021,15.0,Normal value
+Niger,2022,15.0,Normal value
+Niger,2023,15.0,Normal value
+Niger,2024,15.0,Normal value
+Niger,2025,15.0,Normal value
+Niue,2000,100.0,Normal value
+Niue,2001,100.0,Normal value
+Niue,2002,100.0,Normal value
+Niue,2003,100.0,Normal value
+Niue,2004,100.0,Normal value
+Niue,2005,100.0,Normal value
+Niue,2006,100.0,Normal value
+Niue,2007,100.0,Normal value
+Niue,2008,100.0,Normal value
+Niue,2009,100.0,Normal value
+Norway,2000,78.0,Normal value
+Norway,2001,78.0,Normal value
+Norway,2002,78.0,Normal value
+Norway,2003,79.0,Normal value
+Norway,2004,78.0,Normal value
+Norway,2005,78.0,Normal value
+Norway,2006,77.0,Normal value
+Norway,2007,77.0,Normal value
+Norway,2008,80.0,Normal value
+Norway,2009,80.0,Normal value
+Norway,2010,97.0,Normal value
+Norway,2011,92.0,Normal value
+Norway,2012,90.0,Normal value
+Norway,2013,89.0,Normal value
+Norway,2014,89.0,Normal value
+Norway,2015,89.0,Normal value
+Norway,2016,87.0,Normal value
+Norway,2017,89.0,Normal value
+Norway,2018,89.0,Normal value
+Norway,2019,89.0,Normal value
+Norway,2020,89.0,Normal value
+Norway,2021,89.0,Normal value
+Norway,2022,87.0,Normal value
+Norway,2023,86.0,Normal value
+Norway,2024,87.0,Normal value
+Norway,2025,87.0,Normal value
+Pakistan,2000,25.0,Normal value
+Pakistan,2001,14.0,Normal value
+Pakistan,2002,5.0,Normal value
+Pakistan,2003,0.0,Normal value
+Pakistan,2004,0.0,Normal value
+Pakistan,2005,0.0,Normal value
+Pakistan,2006,0.0,Normal value
+Pakistan,2007,0.0,Normal value
+Pakistan,2008,0.0,Normal value
+Pakistan,2009,0.0,Normal value
+Pakistan,2010,0.0,Normal value
+Pakistan,2011,0.0,Normal value
+Pakistan,2012,0.0,Normal value
+Pakistan,2013,0.0,Normal value
+Pakistan,2014,0.0,Normal value
+Pakistan,2015,0.0,Normal value
+Panama,2018,86.0,Normal value
+Panama,2019,86.0,Normal value
+Panama,2020,86.0,Normal value
+Panama,2021,86.0,Normal value
+Panama,2022,86.0,Normal value
+Panama,2023,86.0,Normal value
+Panama,2024,86.0,Normal value
+Panama,2025,86.0,Normal value
+Papua New Guinea,2000,25.0,Normal value
+Papua New Guinea,2001,33.0,Normal value
+Papua New Guinea,2002,0.0,Normal value
+Papua New Guinea,2003,33.0,Normal value
+Papua New Guinea,2004,33.0,Normal value
+Papua New Guinea,2005,33.0,Normal value
+Papua New Guinea,2006,33.0,Normal value
+Papua New Guinea,2007,33.0,Normal value
+Papua New Guinea,2008,33.0,Normal value
+Papua New Guinea,2009,33.0,Normal value
+Papua New Guinea,2010,50.0,Normal value
+Papua New Guinea,2011,50.0,Normal value
+Papua New Guinea,2012,50.0,Normal value
+Paraguay,2000,100.0,Normal value
+Paraguay,2001,100.0,Normal value
+Paraguay,2004,100.0,Normal value
+Paraguay,2005,100.0,Normal value
+Paraguay,2006,100.0,Normal value
+Paraguay,2007,100.0,Normal value
+Paraguay,2008,100.0,Normal value
+Paraguay,2009,100.0,Normal value
+Paraguay,2010,100.0,Normal value
+Paraguay,2011,100.0,Normal value
+Paraguay,2012,100.0,Normal value
+Paraguay,2013,100.0,Normal value
+Paraguay,2017,100.0,Normal value
+Paraguay,2018,100.0,Normal value
+Paraguay,2019,50.0,Normal value
+Paraguay,2020,50.0,Normal value
+Paraguay,2021,100.0,Normal value
+Paraguay,2022,50.0,Normal value
+Paraguay,2023,100.0,Normal value
+Paraguay,2024,100.0,Normal value
+Paraguay,2025,100.0,Normal value
+Peru,2000,17.0,Normal value
+Peru,2001,17.0,Normal value
+Peru,2002,17.0,Normal value
+Peru,2003,0.0,Normal value
+Peru,2004,0.0,Normal value
+Peru,2005,33.0,Normal value
+Peru,2006,33.0,Normal value
+Peru,2007,33.0,Normal value
+Peru,2008,33.0,Normal value
+Peru,2009,33.0,Normal value
+Peru,2010,33.0,Normal value
+Peru,2011,33.0,Normal value
+Peru,2012,40.0,Normal value
+Peru,2013,80.0,Normal value
+Peru,2014,80.0,Normal value
+Peru,2015,80.0,Normal value
+Peru,2016,80.0,Normal value
+Peru,2017,80.0,Normal value
+Peru,2018,80.0,Normal value
+Peru,2019,80.0,Normal value
+Peru,2020,80.0,Normal value
+Peru,2021,75.0,Normal value
+Peru,2022,100.0,Normal value
+Peru,2024,100.0,Normal value
+Peru,2025,100.0,Normal value
+Philippines,2000,50.0,Normal value
+Philippines,2001,44.0,Normal value
+Philippines,2002,17.0,Normal value
+Philippines,2003,20.0,Normal value
+Philippines,2004,20.0,Normal value
+Philippines,2005,20.0,Normal value
+Philippines,2006,20.0,Normal value
+Philippines,2007,20.0,Normal value
+Philippines,2008,20.0,Normal value
+Philippines,2009,20.0,Normal value
+Philippines,2010,20.0,Normal value
+Philippines,2011,20.0,Normal value
+Philippines,2012,20.0,Normal value
+Philippines,2016,0.0,Normal value
+Philippines,2017,0.0,Normal value
+Philippines,2018,0.0,Normal value
+Philippines,2019,50.0,Normal value
+Philippines,2020,50.0,Normal value
+Philippines,2021,50.0,Normal value
+Philippines,2022,50.0,Normal value
+Philippines,2023,38.0,Normal value
+Philippines,2024,38.0,Normal value
+Philippines,2025,38.0,Normal value
+Poland,2000,68.0,Normal value
+Poland,2001,69.0,Normal value
+Poland,2002,68.0,Normal value
+Poland,2003,68.0,Normal value
+Poland,2004,70.0,Normal value
+Poland,2005,68.0,Normal value
+Poland,2006,91.0,Normal value
+Poland,2007,90.0,Normal value
+Poland,2008,94.0,Normal value
+Poland,2009,93.0,Normal value
+Poland,2010,94.0,Normal value
+Poland,2011,93.0,Normal value
+Poland,2012,91.0,Normal value
+Poland,2013,84.0,Normal value
+Poland,2014,84.0,Normal value
+Poland,2015,84.0,Normal value
+Poland,2016,87.0,Normal value
+Poland,2017,87.0,Normal value
+Poland,2018,88.0,Normal value
+Poland,2019,87.0,Normal value
+Poland,2020,86.0,Normal value
+Poland,2021,86.0,Normal value
+Poland,2022,86.0,Normal value
+Poland,2023,85.0,Normal value
+Poland,2024,85.0,Normal value
+Poland,2025,83.0,Normal value
+Portugal,2000,54.0,Normal value
+Portugal,2001,54.0,Normal value
+Portugal,2002,54.0,Normal value
+Portugal,2003,54.0,Normal value
+Portugal,2004,69.0,Normal value
+Portugal,2005,72.0,Normal value
+Portugal,2006,72.0,Normal value
+Portugal,2007,72.0,Normal value
+Portugal,2008,72.0,Normal value
+Portugal,2009,72.0,Normal value
+Portugal,2010,58.0,Normal value
+Portugal,2011,58.0,Normal value
+Portugal,2012,58.0,Normal value
+Portugal,2013,64.0,Normal value
+Portugal,2014,64.0,Normal value
+Portugal,2015,64.0,Normal value
+Portugal,2016,65.0,Normal value
+Portugal,2017,59.0,Normal value
+Portugal,2018,59.0,Normal value
+Portugal,2019,63.0,Normal value
+Portugal,2020,61.0,Normal value
+Portugal,2021,61.0,Normal value
+Portugal,2022,63.0,Normal value
+Portugal,2023,63.0,Normal value
+Portugal,2024,61.0,Normal value
+Portugal,2025,61.0,Normal value
+Guinea-Bissau,2003,0.0,Normal value
+Guinea-Bissau,2004,0.0,Normal value
+Guinea-Bissau,2005,0.0,Normal value
+Guinea-Bissau,2006,0.0,Normal value
+Guinea-Bissau,2007,0.0,Normal value
+Guinea-Bissau,2008,0.0,Normal value
+Guinea-Bissau,2009,0.0,Normal value
+Guinea-Bissau,2010,0.0,Normal value
+Guinea-Bissau,2011,0.0,Normal value
+Guinea-Bissau,2012,0.0,Normal value
+Qatar,2021,0.0,Normal value
+Qatar,2022,0.0,Normal value
+Qatar,2023,0.0,Normal value
+Qatar,2024,0.0,Normal value
+Qatar,2025,0.0,Normal value
+Romania,2000,96.0,Normal value
+Romania,2001,96.0,Normal value
+Romania,2002,96.0,Normal value
+Romania,2003,69.0,Normal value
+Romania,2004,69.0,Normal value
+Romania,2005,69.0,Normal value
+Romania,2006,80.0,Normal value
+Romania,2007,80.0,Normal value
+Romania,2008,80.0,Normal value
+Romania,2009,80.0,Normal value
+Romania,2010,89.0,Normal value
+Romania,2011,89.0,Normal value
+Romania,2012,89.0,Normal value
+Russian Federation,2000,100.0,Normal value
+Russian Federation,2001,100.0,Normal value
+Russian Federation,2002,100.0,Normal value
+Russian Federation,2003,25.0,Normal value
+Russian Federation,2004,24.0,Normal value
+Russian Federation,2005,24.0,Normal value
+Russian Federation,2006,24.0,Normal value
+Russian Federation,2007,24.0,Normal value
+Russian Federation,2008,24.0,Normal value
+Russian Federation,2009,24.0,Normal value
+Russian Federation,2010,24.0,Normal value
+Russian Federation,2011,24.0,Normal value
+Russian Federation,2012,24.0,Normal value
+Russian Federation,2023,65.0,Normal value
+Russian Federation,2024,65.0,Normal value
+Russian Federation,2025,74.0,Normal value
+Rwanda,2008,100.0,Normal value
+Rwanda,2009,100.0,Normal value
+Rwanda,2010,100.0,Normal value
+Rwanda,2011,100.0,Normal value
+Rwanda,2012,100.0,Normal value
+Rwanda,2013,100.0,Normal value
+Rwanda,2014,100.0,Normal value
+Rwanda,2015,100.0,Normal value
+Rwanda,2016,100.0,Normal value
+Rwanda,2017,100.0,Normal value
+Rwanda,2020,0.0,Normal value
+Rwanda,2021,0.0,Normal value
+Rwanda,2022,20.0,Normal value
+Rwanda,2023,18.0,Normal value
+Rwanda,2024,15.0,Normal value
+Rwanda,2025,15.0,Normal value
+St. Kitts and Nevis,2001,100.0,Normal value
+St. Kitts and Nevis,2002,100.0,Normal value
+St. Kitts and Nevis,2003,100.0,Normal value
+St. Kitts and Nevis,2004,100.0,Normal value
+St. Kitts and Nevis,2005,100.0,Normal value
+St. Kitts and Nevis,2006,100.0,Normal value
+St. Kitts and Nevis,2007,100.0,Normal value
+St. Kitts and Nevis,2008,100.0,Normal value
+St. Kitts and Nevis,2009,100.0,Normal value
+St. Kitts and Nevis,2010,100.0,Normal value
+Senegal,2000,0.0,Normal value
+Senegal,2001,0.0,Normal value
+Senegal,2002,0.0,Normal value
+Senegal,2003,0.0,Normal value
+Senegal,2004,0.0,Normal value
+Senegal,2005,0.0,Normal value
+Senegal,2006,0.0,Normal value
+Senegal,2007,0.0,Normal value
+Senegal,2008,0.0,Normal value
+Senegal,2009,0.0,Normal value
+Senegal,2010,0.0,Normal value
+Senegal,2011,0.0,Normal value
+Senegal,2012,0.0,Normal value
+Senegal,2013,0.0,Normal value
+Senegal,2014,0.0,Normal value
+Senegal,2015,0.0,Normal value
+Senegal,2016,0.0,Normal value
+Senegal,2017,0.0,Normal value
+Senegal,2018,0.0,Normal value
+Senegal,2019,27.0,Normal value
+Senegal,2020,27.0,Normal value
+Senegal,2021,27.0,Normal value
+Senegal,2022,30.0,Normal value
+Senegal,2023,30.0,Normal value
+Senegal,2024,30.0,Normal value
+Senegal,2025,30.0,Normal value
+Serbia,2000,100.0,Normal value
+Serbia,2001,100.0,Normal value
+Serbia,2002,100.0,Normal value
+Serbia,2003,100.0,Normal value
+Serbia,2004,90.0,Normal value
+Serbia,2005,90.0,Normal value
+Serbia,2006,90.0,Normal value
+Serbia,2007,90.0,Normal value
+Serbia,2008,90.0,Normal value
+Serbia,2009,90.0,Normal value
+Serbia,2010,90.0,Normal value
+Serbia,2011,90.0,Normal value
+Serbia,2012,100.0,Normal value
+Serbia,2013,100.0,Normal value
+Serbia,2014,100.0,Normal value
+Serbia,2015,100.0,Normal value
+Serbia,2016,100.0,Normal value
+Serbia,2017,100.0,Normal value
+Serbia,2018,100.0,Normal value
+Serbia,2019,100.0,Normal value
+Serbia,2020,100.0,Normal value
+Serbia,2021,100.0,Normal value
+Serbia,2022,90.0,Normal value
+Serbia,2023,91.0,Normal value
+Serbia,2024,82.0,Normal value
+Serbia,2025,92.0,Normal value
+Slovak Republic,2000,83.0,Normal value
+Slovak Republic,2001,83.0,Normal value
+Slovak Republic,2002,83.0,Normal value
+Slovak Republic,2003,78.0,Normal value
+Slovak Republic,2004,86.0,Normal value
+Slovak Republic,2005,83.0,Normal value
+Slovak Republic,2006,83.0,Normal value
+Slovak Republic,2007,95.0,Normal value
+Slovak Republic,2008,95.0,Normal value
+Slovak Republic,2009,95.0,Normal value
+Slovak Republic,2010,95.0,Normal value
+Slovak Republic,2011,90.0,Normal value
+Slovak Republic,2012,95.0,Normal value
+Slovak Republic,2013,86.0,Normal value
+Slovak Republic,2014,86.0,Normal value
+Slovak Republic,2015,86.0,Normal value
+Slovak Republic,2016,91.0,Normal value
+Slovak Republic,2017,83.0,Normal value
+Slovak Republic,2018,84.0,Normal value
+Slovak Republic,2019,84.0,Normal value
+Slovak Republic,2020,84.0,Normal value
+Slovak Republic,2021,84.0,Normal value
+Slovak Republic,2022,84.0,Normal value
+Slovak Republic,2023,84.0,Normal value
+Slovak Republic,2024,84.0,Normal value
+Slovak Republic,2025,84.0,Normal value
+Viet Nam,2000,37.0,Normal value
+Viet Nam,2001,38.0,Normal value
+Viet Nam,2002,30.0,Normal value
+Viet Nam,2003,27.0,Normal value
+Viet Nam,2004,27.0,Normal value
+Viet Nam,2005,30.0,Normal value
+Viet Nam,2006,30.0,Normal value
+Viet Nam,2007,11.0,Normal value
+Viet Nam,2008,11.0,Normal value
+Viet Nam,2009,11.0,Normal value
+Viet Nam,2010,21.0,Normal value
+Viet Nam,2011,21.0,Normal value
+Viet Nam,2012,22.0,Normal value
+Viet Nam,2013,22.0,Normal value
+Viet Nam,2014,22.0,Normal value
+Viet Nam,2015,21.0,Normal value
+Viet Nam,2016,21.0,Normal value
+Viet Nam,2017,21.0,Normal value
+Viet Nam,2018,21.0,Normal value
+Viet Nam,2019,21.0,Normal value
+Viet Nam,2020,20.0,Normal value
+Viet Nam,2021,20.0,Normal value
+Viet Nam,2022,20.0,Normal value
+Viet Nam,2023,20.0,Normal value
+Viet Nam,2024,20.0,Normal value
+Viet Nam,2025,20.0,Normal value
+Slovenia,2000,25.0,Normal value
+Slovenia,2001,50.0,Normal value
+Slovenia,2002,50.0,Normal value
+Slovenia,2003,67.0,Normal value
+Slovenia,2004,77.0,Normal value
+Slovenia,2005,82.0,Normal value
+Slovenia,2006,88.0,Normal value
+Slovenia,2007,88.0,Normal value
+Slovenia,2008,88.0,Normal value
+Slovenia,2009,88.0,Normal value
+Slovenia,2010,88.0,Normal value
+Slovenia,2011,92.0,Normal value
+Slovenia,2012,92.0,Normal value
+Slovenia,2013,92.0,Normal value
+Slovenia,2014,93.0,Normal value
+Slovenia,2015,96.0,Normal value
+Slovenia,2016,100.0,Normal value
+Slovenia,2017,97.0,Normal value
+Slovenia,2018,100.0,Normal value
+Slovenia,2019,100.0,Normal value
+Slovenia,2020,97.0,Normal value
+Slovenia,2021,97.0,Normal value
+Slovenia,2022,96.0,Normal value
+Slovenia,2023,92.0,Normal value
+Slovenia,2024,88.0,Normal value
+Slovenia,2025,88.0,Normal value
+South Africa,2000,96.0,Normal value
+South Africa,2001,96.0,Normal value
+South Africa,2002,100.0,Normal value
+South Africa,2003,100.0,Normal value
+South Africa,2004,100.0,Normal value
+South Africa,2005,100.0,Normal value
+South Africa,2006,100.0,Normal value
+South Africa,2007,100.0,Normal value
+South Africa,2008,100.0,Normal value
+South Africa,2009,100.0,Normal value
+South Africa,2010,100.0,Normal value
+South Africa,2011,83.0,Normal value
+South Africa,2012,83.0,Normal value
+South Africa,2013,80.0,Normal value
+South Africa,2014,80.0,Normal value
+South Africa,2015,80.0,Normal value
+South Africa,2016,80.0,Normal value
+South Africa,2017,86.0,Normal value
+South Africa,2018,86.0,Normal value
+South Africa,2019,86.0,Normal value
+South Africa,2020,86.0,Normal value
+South Africa,2021,67.0,Normal value
+South Africa,2022,78.0,Normal value
+South Africa,2023,78.0,Normal value
+South Africa,2024,83.0,Normal value
+South Africa,2025,81.0,Normal value
+Zimbabwe,2000,50.0,Normal value
+Zimbabwe,2001,50.0,Normal value
+Spain,2000,77.0,Normal value
+Spain,2001,73.0,Normal value
+Spain,2002,73.0,Normal value
+Spain,2003,73.0,Normal value
+Spain,2004,73.0,Normal value
+Spain,2005,73.0,Normal value
+Spain,2006,72.0,Normal value
+Spain,2007,76.0,Normal value
+Spain,2008,72.0,Normal value
+Spain,2009,75.0,Normal value
+Spain,2010,69.0,Normal value
+Spain,2011,68.0,Normal value
+Spain,2012,68.0,Normal value
+Spain,2013,69.0,Normal value
+Spain,2014,68.0,Normal value
+Spain,2015,68.0,Normal value
+Spain,2016,66.0,Normal value
+Spain,2017,64.0,Normal value
+Spain,2018,64.0,Normal value
+Spain,2019,66.0,Normal value
+Spain,2020,66.0,Normal value
+Spain,2021,66.0,Normal value
+Spain,2022,67.0,Normal value
+Spain,2023,68.0,Normal value
+Spain,2024,70.0,Normal value
+Spain,2025,70.0,Normal value
+Sudan,2000,0.0,Normal value
+Sudan,2001,0.0,Normal value
+Sudan,2002,0.0,Normal value
+Sudan,2003,0.0,Normal value
+Sudan,2010,0.0,Normal value
+Sudan,2011,0.0,Normal value
+Sudan,2012,0.0,Normal value
+Sudan,2013,0.0,Normal value
+Sudan,2014,0.0,Normal value
+Sudan,2015,0.0,Normal value
+Sudan,2016,0.0,Normal value
+Sudan,2017,0.0,Normal value
+Sudan,2018,16.0,Normal value
+Sudan,2019,16.0,Normal value
+Sudan,2020,16.0,Normal value
+Sudan,2021,16.0,Normal value
+Sudan,2022,16.0,Normal value
+Sudan,2023,16.0,Normal value
+Sudan,2024,16.0,Normal value
+Sudan,2025,16.0,Normal value
+Eswatini,2000,0.0,Normal value
+Eswatini,2001,0.0,Normal value
+Eswatini,2002,0.0,Normal value
+Eswatini,2003,100.0,Normal value
+Eswatini,2004,100.0,Normal value
+Eswatini,2005,100.0,Normal value
+Eswatini,2006,100.0,Normal value
+Eswatini,2007,100.0,Normal value
+Eswatini,2008,100.0,Normal value
+Eswatini,2009,100.0,Normal value
+Eswatini,2010,100.0,Normal value
+Eswatini,2011,100.0,Normal value
+Eswatini,2012,100.0,Normal value
+Sweden,2000,77.0,Normal value
+Sweden,2001,77.0,Normal value
+Sweden,2002,80.0,Normal value
+Sweden,2003,81.0,Normal value
+Sweden,2004,97.0,Normal value
+Sweden,2005,97.0,Normal value
+Sweden,2006,97.0,Normal value
+Sweden,2007,97.0,Normal value
+Sweden,2008,98.0,Normal value
+Sweden,2009,98.0,Normal value
+Sweden,2010,98.0,Normal value
+Sweden,2011,98.0,Normal value
+Sweden,2012,96.0,Normal value
+Sweden,2013,96.0,Normal value
+Sweden,2014,96.0,Normal value
+Sweden,2015,96.0,Normal value
+Sweden,2016,94.0,Normal value
+Sweden,2017,93.0,Normal value
+Sweden,2018,96.0,Normal value
+Sweden,2019,94.0,Normal value
+Sweden,2020,94.0,Normal value
+Sweden,2021,94.0,Normal value
+Sweden,2022,92.0,Normal value
+Sweden,2023,90.0,Normal value
+Sweden,2024,89.0,Normal value
+Sweden,2025,89.0,Normal value
+Switzerland,2000,67.0,Normal value
+Switzerland,2001,68.0,Normal value
+Switzerland,2002,68.0,Normal value
+Switzerland,2003,68.0,Normal value
+Switzerland,2004,68.0,Normal value
+Switzerland,2005,68.0,Normal value
+Switzerland,2006,68.0,Normal value
+Switzerland,2007,65.0,Normal value
+Switzerland,2008,70.0,Normal value
+Switzerland,2009,65.0,Normal value
+Switzerland,2010,67.0,Normal value
+Switzerland,2011,67.0,Normal value
+Switzerland,2012,65.0,Normal value
+Switzerland,2013,65.0,Normal value
+Switzerland,2014,70.0,Normal value
+Switzerland,2015,70.0,Normal value
+Switzerland,2016,65.0,Normal value
+Switzerland,2017,70.0,Normal value
+Switzerland,2018,76.0,Normal value
+Switzerland,2019,72.0,Normal value
+Switzerland,2020,71.0,Normal value
+Switzerland,2021,71.0,Normal value
+Switzerland,2022,70.0,Normal value
+Switzerland,2023,69.0,Normal value
+Switzerland,2024,78.0,Normal value
+Switzerland,2025,78.0,Normal value
+Syrian Arab Republic,2000,25.0,Normal value
+Syrian Arab Republic,2001,50.0,Normal value
