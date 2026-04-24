@@ -18,3 +18,6 @@ selected_countries = st.sidebar.multiselect("Countries", countries, default=coun
 year_min, year_max = int(df["year"].min()), int(df["year"].max())
 year_range = st.sidebar.slider("Year Range", year_min, year_max, (year_min, year_max))
 
+# ── Title ─────────────────────────────────────────────────────
+st.title("Local Breeds at Risk of Extinction")
+st.markdown("**SDG Indicator 2.5.2** — Proportion of local breeds classified as being at risk of extinction.")
