@@ -7,21 +7,21 @@ st.set_page_config(page_title="Breeds at Risk Dashboard", page_icon="🐄", layo
 # ── Custom CSS ────────────────────────────────────────────────
 st.markdown("""
     <style>
-    .main { background-color: #f9f9f9; }
+    .main { background-color: #0e0e0e; }
     .block-container { padding-top: 2rem; }
-    h1 { color: #2c7a4b; }
-    h2, h3 { color: #3a3a3a; }
-    .metric-container { background-color: #ffffff; border-radius: 10px; padding: 10px; }
+    h1, h2, h3 { color: #ffffff; }
     [data-testid="stMetric"] {
-        background-color: #ffffff;
-        border: 1px solid #e0e0e0;
-        border-radius: 10px;
+        background-color: #1a1a1a;
+        border: 1px solid #2e2e2e;
+        border-radius: 12px;
         padding: 15px;
-        box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
     }
-    [data-testid="stMetricLabel"] { font-size: 14px; color: #666; }
-    [data-testid="stMetricValue"] { font-size: 28px; color: #2c7a4b; font-weight: bold; }
-    .stSidebar { background-color: #f0f7f4; }
+    [data-testid="stMetricLabel"] { color: #aaaaaa; font-size: 13px; }
+    [data-testid="stMetricValue"] { color: #4ade80; font-size: 28px; font-weight: bold; }
+    .stSidebar { background-color: #111111; }
+    .stSidebar h1, .stSidebar p, .stSidebar label { color: #ffffff; }
+    hr { border-color: #2e2e2e; }
     </style>
 """, unsafe_allow_html=True)
 
@@ -32,18 +32,17 @@ def load_data():
 df = load_data()
 
 # ── Sidebar ───────────────────────────────────────────────────
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_the_United_Nations.svg/200px-Emblem_of_the_United_Nations.svg.png", width=60)
 st.sidebar.title("🔍 Filters")
 st.sidebar.markdown("---")
 
 countries = sorted(df["country"].unique())
-selected_countries = st.sidebar.multiselect("🌍 Select Countries", countries, default=countries)
+selected_countries = st.sidebar.multiselect("🌍 Countries", countries, default=countries)
 
 year_min, year_max = int(df["year"].min()), int(df["year"].max())
 year_range = st.sidebar.slider("📅 Year Range", year_min, year_max, (year_min, year_max))
 
 st.sidebar.markdown("---")
-st.sidebar.info("Data: UN SDG Indicator 2.5.2 via World Bank Data360")
+st.sidebar.info("Source: UN SDG 2.5.2 via World Bank Data360")
 
 # ── Filter ────────────────────────────────────────────────────
 filtered = df[
@@ -54,28 +53,40 @@ filtered = df[
 
 # ── Header ────────────────────────────────────────────────────
 st.markdown("# 🐄 Local Breeds at Risk of Extinction")
-st.markdown("**SDG Indicator 2.5.2** — Proportion of local breeds classified as being at risk of extinction across the world.")
+st.markdown("**SDG Indicator 2.5.2** — Proportion of local breeds classified as being at risk of extinction.")
 st.markdown("---")
 
 # ── KPIs ──────────────────────────────────────────────────────
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("🌍 Countries", filtered["country"].nunique())
-col2.metric("📅 Years Covered", f"{year_range[0]} – {year_range[1]}")
+col2.metric("📅 Years", f"{year_range[0]} – {year_range[1]}")
 col3.metric("📊 Avg % At Risk", f"{filtered['pct_at_risk'].mean():.1f}%")
 col4.metric("📈 Max % At Risk", f"{filtered['pct_at_risk'].max():.1f}%")
 
 st.markdown("---")
 
+# ── Chart settings ────────────────────────────────────────────
+bg = "#0e0e0e"
+grid = "#2e2e2e"
+font_color = "#ffffff"
+
+layout = dict(
+    plot_bgcolor=bg,
+    paper_bgcolor=bg,
+    font=dict(color=font_color),
+    xaxis=dict(gridcolor=grid, zerolinecolor=grid),
+    yaxis=dict(gridcolor=grid, zerolinecolor=grid),
+    margin=dict(t=40, b=40, l=40, r=40)
+)
+
 # ── Chart 1: Trend ────────────────────────────────────────────
 st.subheader("📈 Global Trend Over Time")
 trend = filtered.groupby("year")["pct_at_risk"].mean().reset_index()
-fig1 = px.line(trend, x="year", y="pct_at_risk",
-               markers=True,
+fig1 = px.area(trend, x="year", y="pct_at_risk",
                labels={"pct_at_risk": "Avg % At Risk", "year": "Year"},
-               color_discrete_sequence=["#2c7a4b"])
-fig1.update_traces(line=dict(width=3), marker=dict(size=7))
-fig1.update_layout(plot_bgcolor="white", paper_bgcolor="white",
-                   yaxis=dict(gridcolor="#eeeeee"), xaxis=dict(gridcolor="#eeeeee"))
+               color_discrete_sequence=["#4ade80"])
+fig1.update_traces(line=dict(width=2.5), fillcolor="rgba(74,222,128,0.15)")
+fig1.update_layout(**layout)
 st.plotly_chart(fig1, use_container_width=True)
 
 # ── Chart 2 & 3 side by side ──────────────────────────────────
@@ -86,36 +97,44 @@ with col_a:
     latest = filtered[filtered["year"] == filtered["year"].max()]
     top15 = latest.sort_values("pct_at_risk", ascending=False).head(15)
     fig2 = px.bar(top15, x="pct_at_risk", y="country", orientation="h",
-                  color="pct_at_risk", color_continuous_scale="Reds",
+                  color="pct_at_risk", color_continuous_scale="Aggrnyl",
                   labels={"pct_at_risk": "% At Risk", "country": "Country"})
-    fig2.update_layout(plot_bgcolor="white", paper_bgcolor="white",
-                       yaxis=dict(autorange="reversed"),
+    fig2.update_layout(**layout, yaxis=dict(autorange="reversed", gridcolor=grid),
                        coloraxis_showscale=False)
     st.plotly_chart(fig2, use_container_width=True)
 
 with col_b:
     st.subheader("📉 Distribution of % At Risk")
-    fig4 = px.histogram(filtered, x="pct_at_risk", nbins=30,
+    fig3 = px.histogram(filtered, x="pct_at_risk", nbins=30,
                         labels={"pct_at_risk": "% At Risk"},
-                        color_discrete_sequence=["#2c7a4b"])
-    fig4.update_layout(plot_bgcolor="white", paper_bgcolor="white",
-                       yaxis=dict(gridcolor="#eeeeee"))
-    st.plotly_chart(fig4, use_container_width=True)
+                        color_discrete_sequence=["#4ade80"])
+    fig3.update_traces(marker_line_color="#0e0e0e", marker_line_width=1)
+    fig3.update_layout(**layout)
+    st.plotly_chart(fig3, use_container_width=True)
 
 # ── Chart 4: Map ──────────────────────────────────────────────
 st.subheader("🗺️ World Map — % Breeds at Risk")
 map_data = filtered.groupby("country")["pct_at_risk"].mean().reset_index()
-fig3 = px.choropleth(map_data, locations="country", locationmode="country names",
-                     color="pct_at_risk", color_continuous_scale="YlOrRd",
+fig4 = px.choropleth(map_data, locations="country", locationmode="country names",
+                     color="pct_at_risk", color_continuous_scale="Aggrnyl",
                      labels={"pct_at_risk": "Avg % At Risk"})
-fig3.update_layout(geo=dict(showframe=False, showcoastlines=True,
-                            projection_type="natural earth"),
-                   paper_bgcolor="white")
-st.plotly_chart(fig3, use_container_width=True)
+fig4.update_layout(
+    geo=dict(showframe=False, showcoastlines=True,
+             projection_type="natural earth",
+             bgcolor=bg,
+             landcolor="#1a1a1a",
+             oceancolor="#111111",
+             showocean=True,
+             coastlinecolor="#2e2e2e"),
+    paper_bgcolor=bg,
+    font=dict(color=font_color),
+    margin=dict(t=40, b=40)
+)
+st.plotly_chart(fig4, use_container_width=True)
 
 # ── Raw data ──────────────────────────────────────────────────
 with st.expander("📄 View Raw Data"):
     st.dataframe(filtered, use_container_width=True)
 
 st.markdown("---")
-st.caption("📌 Source: UN SDG Indicator 2.5.2 via World Bank Data360 | Dashboard built with Streamlit")
+st.caption("📌 Source: UN SDG Indicator 2.5.2 via World Bank Data360 | Built with Streamlit")
