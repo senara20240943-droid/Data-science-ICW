@@ -4,8 +4,8 @@ import plotly.express as px
 st.set_page_config(page_title="Proportion of local breeds classified as being at risk of extinction", layout="wide")
 
 @st.cache_data
-def load_data():
-    return pd.read_csv("clean.csv")
+def load_data("/Users/senarajayawardena/Desktop/IIT 2y/SEM 02/Data Science /ICW/Data Science/clean.csv"):
+    return pd.read_csv("/Users/senarajayawardena/Desktop/IIT 2y/SEM 02/Data Science /ICW/Data Science/clean.csv")
 
 df = load_data()
 
