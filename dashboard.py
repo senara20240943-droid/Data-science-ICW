@@ -99,8 +99,8 @@ with col_a:
     fig2 = px.bar(top15, x="pct_at_risk", y="country", orientation="h",
                   color="pct_at_risk", color_continuous_scale="Aggrnyl",
                   labels={"pct_at_risk": "% At Risk", "country": "Country"})
-    fig2.update_layout(**layout, yaxis=dict(autorange="reversed", gridcolor=grid),
-                       coloraxis_showscale=False)
+    fig2.update_layout(**layout, coloraxis_showscale=False)
+    fig2.update_yaxes(autorange="reversed", gridcolor=grid)
     st.plotly_chart(fig2, use_container_width=True)
 
 with col_b:
