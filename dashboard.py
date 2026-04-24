@@ -100,13 +100,14 @@ with col_b:
 st.subheader("🗺️ World Map — % Breeds at Risk")
 map_data = filtered.groupby("country")["pct_at_risk"].mean().reset_index()
 fig4 = px.choropleth(map_data, locations="country", locationmode="country names",
-                     color="pct_at_risk", color_continuous_scale="Aggrnyl",
+                     color="pct_at_risk", color_continuous_scale="YlOrRd",
                      labels={"pct_at_risk": "Avg % At Risk"})
 fig4.update_layout(
     paper_bgcolor=BG, font=dict(color="#ffffff"),
-    geo=dict(bgcolor=BG, landcolor="#1a1a1a", oceancolor="#111111",
-             showocean=True, showcoastlines=True, coastlinecolor=GRID,
-             showframe=False, projection_type="natural earth"),
+    geo=dict(bgcolor=BG, landcolor="#2a2a2a", oceancolor="#1a1a1a",
+             showocean=True, showcoastlines=True, coastlinecolor="#555555",
+             showframe=False, projection_type="natural earth",
+             showlakes=True, lakecolor="#1a1a1a"),
     margin=dict(t=40, b=40)
 )
 st.plotly_chart(fig4, use_container_width=True)
