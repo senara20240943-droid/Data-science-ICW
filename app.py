@@ -61,3 +61,9 @@ fig4 = px.histogram(filtered, x="pct_at_risk", nbins=30,
                     labels={"pct_at_risk": "% At Risk"},
                     color_discrete_sequence=["teal"])
 st.plotly_chart(fig4, use_container_width=True)
+
+# ── Raw data ──────────────────────────────────────────────────
+with st.expander("View Raw Data"):
+    st.dataframe(filtered, use_container_width=True)
+
+st.caption("Source: UN SDG Indicator 2.5.2 via World Bank Data360")
