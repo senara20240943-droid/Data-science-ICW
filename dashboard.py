@@ -96,8 +96,7 @@ with col_b:
     fig3.update_traces(marker_line_color=BG, marker_line_width=1)
     st.plotly_chart(dark_layout(fig3), use_container_width=True)
 
-
-
+# ── Chart 4: Tree map ──────────────────────────────────
 st.subheader("📦 Spread of % At Risk by Decade")
 filtered["decade"] = (filtered["year"] // 10 * 10).astype(str) + "s"
 fig = px.box(filtered, x="decade", y="pct_at_risk",
@@ -124,7 +123,7 @@ else:
 
 
 
-# ── Chart 4: Map ──────────────────────────────────────────────
+# ── Chart 5: Map ──────────────────────────────────────────────
 st.subheader("🗺️ World Map — % Breeds at Risk")
 map_data = filtered.groupby("country")["pct_at_risk"].mean().reset_index()
 fig4 = px.choropleth(map_data, locations="country", locationmode="country names",
@@ -139,6 +138,7 @@ fig4.update_layout(
     margin=dict(t=40, b=40)
 )
 st.plotly_chart(fig4, use_container_width=True)
+
 
 # ── Raw data ──────────────────────────────────────────────────
 with st.expander("📄 View Raw Data"):
