@@ -4,8 +4,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+#Page configuration
+# Sets the browser tab title, icon and uses full screen width
 st.set_page_config(page_title="Breeds at Risk Dashboard", page_icon="🐄", layout="wide")
 
+#Custom CSS styling
+# Applies dark background, white headings and styled KPI cards
 st.markdown("""
     <style>
     .main { background-color: #0e0e0e; }
@@ -24,6 +28,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Load data ─────────────────────────────────────────────────
+# Reads the cleaned CSV file into a pandas dataframe
+# cache_data means the file is only read once and reused on filter changes
 @st.cache_data
 def load_data():
     return pd.read_csv("clean.csv")
@@ -32,8 +38,11 @@ df = load_data()
 
 
 # ── Sidebar ───────────────────────────────────────────────────
+# Creates interactive controls in the sidebar for the user to filter data
 st.sidebar.title("🔍 Filters")
+# Multiselect dropdown — user can pick one or more countries
 selected_countries = st.sidebar.multiselect("🌍 Countries", sorted(df["country"].unique()), default=sorted(df["country"].unique()))
+# Slider — user picks a start and end year
 year_range = st.sidebar.slider("📅 Year Range", int(df["year"].min()), int(df["year"].max()), (int(df["year"].min()), int(df["year"].max())))
 st.sidebar.info("Source: UN SDG 2.5.2 via World Bank Data360")
 
@@ -49,6 +58,7 @@ st.markdown("---")
 
 
 # ── KPIs ──────────────────────────────────────────────────────
+# Displays 4 summary statistics side by side at the top of the dashboard
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("🌍 Countries", filtered["country"].nunique())
 col2.metric("📅 Years", f"{year_range[0]} – {year_range[1]}")
@@ -58,12 +68,13 @@ st.markdown("---")
 
 
 # ── Shared chart style ────────────────────────────────────────
+# Defines shared colours and gradient scale used across all charts
 BG = "#0e0e0e"
 GRID = "#14532d"
 GREEN = "#4ade80"
 YELLOW = "#fef08a"
 SCALE = ["#052e16", "#166534", "#4ade80", "#d9f99d", "#fef08a"]
-
+# Applies consistent dark styling to every chart to match the theme
 def dark_layout(fig):
     fig.update_layout(
         plot_bgcolor=BG, paper_bgcolor=BG,
@@ -75,6 +86,7 @@ def dark_layout(fig):
     return fig
 
 # ── Chart 1: Area trend (green) ───────────────────────────────
+# Shows how the global average % at risk has changed year by year
 st.subheader("📈 Global Trend Over Time")
 trend = filtered.groupby("year")["pct_at_risk"].mean().reset_index()
 fig1 = px.area(trend, x="year", y="pct_at_risk",
@@ -87,6 +99,7 @@ st.plotly_chart(dark_layout(fig1), use_container_width=True)
 col_a, col_b = st.columns(2)
 
 with col_a:
+    # Chart 2: Horizontal bar chart of top 15 countries for the latest year
     st.subheader("📊 Top 15 Countries")
     latest_year = filtered["year"].max()
     top15 = filtered[filtered["year"] == latest_year].sort_values("pct_at_risk", ascending=False).head(15)
@@ -98,6 +111,7 @@ with col_a:
     st.plotly_chart(dark_layout(fig2), use_container_width=True)
 
 with col_b:
+    # Chart 3: Histogram showing how % at risk values are spread
     st.subheader("📉 Distribution of % At Risk")
     fig3 = px.histogram(filtered, x="pct_at_risk", nbins=30,
                         labels={"pct_at_risk": "% At Risk"},
@@ -106,6 +120,7 @@ with col_b:
     st.plotly_chart(dark_layout(fig3), use_container_width=True)
 
 # ── Chart 4: Box plot ─────────────────────────────────────────
+# Shows the spread and outliers of % at risk grouped by decade
 st.subheader("📦 Spread of % At Risk by Decade")
 filtered["decade"] = (filtered["year"] // 10 * 10).astype(str) + "s"
 fig4 = px.box(filtered, x="decade", y="pct_at_risk",
@@ -115,7 +130,8 @@ fig4 = px.box(filtered, x="decade", y="pct_at_risk",
 fig4.update_layout(showlegend=False)
 st.plotly_chart(dark_layout(fig4), use_container_width=True)
 
-# ── Chart 4: Tree map ──────────────────────────────────
+# ── Chart 5: Tree map ──────────────────────────────────
+# Shows each country as a box — larger box = higher % at risk
 st.subheader("🟩 Treemap of % At Risk by Country")
 latest = filtered[filtered["year"] == filtered["year"].max()]
 latest = latest[latest["pct_at_risk"] > 0]
@@ -133,6 +149,7 @@ else:
 
 
 # ── Chart 6: Map ──────────────────────────────────────────────
+# Choropleth map — countries coloured by their average % at risk
 st.subheader("🗺️ World Map — % Breeds at Risk")
 map_data = filtered.groupby("country")["pct_at_risk"].mean().reset_index()
 fig6 = px.choropleth(map_data, locations="country", locationmode="country names",
@@ -149,6 +166,7 @@ fig6.update_layout(
 st.plotly_chart(fig6, use_container_width=True)
 
 # ── Raw data ──────────────────────────────────────────────────
+# Hidden by default — click to expand and view the filtered dataset as a table
 with st.expander("📄 View Raw Data"):
     st.dataframe(filtered, use_container_width=True)
 
