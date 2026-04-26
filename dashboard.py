@@ -1,3 +1,5 @@
+
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -11,7 +13,7 @@ st.markdown("""
     h1, h2, h3 { color: #ffffff; }
     [data-testid="stMetric"] {
         background-color: #1a1a1a;
-        border: 1px solid #2e2e2e;
+        border: 1px solid #166534;
         border-radius: 12px;
         padding: 15px;
     }
@@ -28,19 +30,23 @@ def load_data():
 
 df = load_data()
 
+
 # ── Sidebar ───────────────────────────────────────────────────
 st.sidebar.title("🔍 Filters")
 selected_countries = st.sidebar.multiselect("🌍 Countries", sorted(df["country"].unique()), default=sorted(df["country"].unique()))
 year_range = st.sidebar.slider("📅 Year Range", int(df["year"].min()), int(df["year"].max()), (int(df["year"].min()), int(df["year"].max())))
 st.sidebar.info("Source: UN SDG 2.5.2 via World Bank Data360")
 
+
 # ── Filter ────────────────────────────────────────────────────
 filtered = df[df["country"].isin(selected_countries) & df["year"].between(year_range[0], year_range[1])]
+
 
 # ── Header ────────────────────────────────────────────────────
 st.markdown("# 🐄 Local Breeds at Risk of Extinction")
 st.markdown("**SDG Indicator 2.5.2** — Proportion of local breeds classified as being at risk of extinction.")
 st.markdown("---")
+
 
 # ── KPIs ──────────────────────────────────────────────────────
 col1, col2, col3, col4 = st.columns(4)
@@ -50,10 +56,13 @@ col3.metric("📊 Avg % At Risk", f"{filtered['pct_at_risk'].mean():.1f}%")
 col4.metric("📈 Max % At Risk", f"{filtered['pct_at_risk'].max():.1f}%")
 st.markdown("---")
 
+
 # ── Shared chart style ────────────────────────────────────────
 BG = "#0e0e0e"
-GRID = "#2e2e2e"
+GRID = "#14532d"
 GREEN = "#4ade80"
+YELLOW = "#fef08a"
+SCALE = ["#052e16", "#166534", "#4ade80", "#d9f99d", "#fef08a"]
 
 def dark_layout(fig):
     fig.update_layout(
@@ -65,7 +74,7 @@ def dark_layout(fig):
     )
     return fig
 
-# ── Chart 1: Area trend ───────────────────────────────────────
+# ── Chart 1: Area trend (green) ───────────────────────────────
 st.subheader("📈 Global Trend Over Time")
 trend = filtered.groupby("year")["pct_at_risk"].mean().reset_index()
 fig1 = px.area(trend, x="year", y="pct_at_risk",
@@ -82,7 +91,7 @@ with col_a:
     latest_year = filtered["year"].max()
     top15 = filtered[filtered["year"] == latest_year].sort_values("pct_at_risk", ascending=False).head(15)
     fig2 = px.bar(top15, x="pct_at_risk", y="country", orientation="h",
-                  color="pct_at_risk", color_continuous_scale="Aggrnyl",
+                  color="pct_at_risk", color_continuous_scale=SCALE,
                   labels={"pct_at_risk": "% At Risk", "country": "Country"})
     fig2.update_layout(coloraxis_showscale=False)
     fig2.update_yaxes(autorange="reversed", gridcolor=GRID)
@@ -96,15 +105,17 @@ with col_b:
     fig3.update_traces(marker_line_color=BG, marker_line_width=1)
     st.plotly_chart(dark_layout(fig3), use_container_width=True)
 
-# ── Chart 4: Tree map ──────────────────────────────────
+# ── Chart 4: Box plot ─────────────────────────────────────────
 st.subheader("📦 Spread of % At Risk by Decade")
 filtered["decade"] = (filtered["year"] // 10 * 10).astype(str) + "s"
-fig = px.box(filtered, x="decade", y="pct_at_risk",
-             color="decade",
-             labels={"pct_at_risk": "% At Risk", "decade": "Decade"})
-fig.update_layout(showlegend=False)
-st.plotly_chart(dark_layout(fig), use_container_width=True)
+fig4 = px.box(filtered, x="decade", y="pct_at_risk",
+              color="decade",
+              color_discrete_sequence=[GREEN, "#86efac", "#d9f99d", YELLOW, GREEN],
+              labels={"pct_at_risk": "% At Risk", "decade": "Decade"})
+fig4.update_layout(showlegend=False)
+st.plotly_chart(dark_layout(fig4), use_container_width=True)
 
+# ── Chart 4: Tree map ──────────────────────────────────
 st.subheader("🟩 Treemap of % At Risk by Country")
 latest = filtered[filtered["year"] == filtered["year"].max()]
 latest = latest[latest["pct_at_risk"] > 0]
@@ -121,24 +132,21 @@ else:
     st.plotly_chart(fig, use_container_width=True)
 
 
-
-
-# ── Chart 5: Map ──────────────────────────────────────────────
+# ── Chart 6: Map ──────────────────────────────────────────────
 st.subheader("🗺️ World Map — % Breeds at Risk")
 map_data = filtered.groupby("country")["pct_at_risk"].mean().reset_index()
-fig4 = px.choropleth(map_data, locations="country", locationmode="country names",
-                     color="pct_at_risk", color_continuous_scale="Aggrnyl",
+fig6 = px.choropleth(map_data, locations="country", locationmode="country names",
+                     color="pct_at_risk", color_continuous_scale=SCALE,
                      labels={"pct_at_risk": "Avg % At Risk"})
-fig4.update_layout(
+fig6.update_layout(
     paper_bgcolor=BG, font=dict(color="#ffffff"),
-    geo=dict(bgcolor="#1c1c1c", landcolor="#3a3a3a", oceancolor="#252525",
-             showocean=True, showcoastlines=True, coastlinecolor="#888888",
-             showframe=True, framecolor="#666666",
+    geo=dict(bgcolor=BG, landcolor="#052e16", oceancolor="#0a0a0a",
+             showocean=True, showcoastlines=True, coastlinecolor=YELLOW,
+             showframe=True, framecolor=GREEN,
              projection_type="natural earth"),
     margin=dict(t=40, b=40)
 )
-st.plotly_chart(fig4, use_container_width=True)
-
+st.plotly_chart(fig6, use_container_width=True)
 
 # ── Raw data ──────────────────────────────────────────────────
 with st.expander("📄 View Raw Data"):
